@@ -14,9 +14,9 @@ _Last updated: 2026-11-17_
 | Access scopes | `read_products`, `read_inventory`, `read_content`, `read_online_store_pages`, `read_legal_policies`, `write_app_proxy` | Read only for store data. `write_app_proxy` is required by Shopify for every app with an app proxy (it covers only the `/apps/beth` proxy route). Beth cannot change products, prices, orders or content. |
 | Webhooks | `app/uninstalled`, `app/scopes_update`, `products/create`, `products/update`, `products/delete`, `inventory_levels/update`, the 3 privacy compliance topics | Shopify notifies Beth. Nothing changes in the store. |
 | Events | `Article` create, update, delete (Recipes blog) | Same as above |
-| App proxy | `https://www.360cookware.com/apps/beth/*` → `https://beth-api.360cookware.com/proxy/*` | A new URL path on the storefront. Shopify signs every request. |
+| App proxy | `https://www.360cookware.com/apps/beth/*` → `https://beth-lw31.onrender.com/proxy/*` | A new URL path on the storefront. Shopify signs every request. |
 | Theme app extension | App embed "Beth concierge" (`beth-loader.js`, 2 KB gzipped) | Nothing until someone enables the embed in a theme **and** Beth is switched on. It renders nothing while the app-owned flag `beth.widget_enabled` is off. |
-| App URL | `https://beth-api.360cookware.com` | Planned API host (blocker B3). It has no DNS record yet, so no data is sent anywhere until hosting exists. |
+| App URL | `https://beth-lw31.onrender.com` | Render web service `beth` (staging, free plan). |
 
 `read_orders` (order attribution) is added in the analytics phase. Adding a scope later needs one
 approval in the admin.
@@ -101,13 +101,11 @@ Nothing in this part changes the store: the app is not installed yet.
      | `NODE_ENV` | `production` |
      | `SHOPIFY_API_KEY` | Client ID |
      | `SHOPIFY_API_SECRET` | Client secret (Dev Dashboard → Beth → Settings) |
-     | `SHOPIFY_APP_URL` | `https://beth-api.360cookware.com` |
+     | `SHOPIFY_APP_URL` | `https://beth-lw31.onrender.com` |
      | `SCOPES` | `read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies,write_app_proxy` |
      | `DATABASE_URL` | Render Postgres internal connection string |
 
-   - DNS: `CNAME beth-api.360cookware.com` → the Render service host. If you choose another host
-     name, update `application_url`, `[auth] redirect_urls` and `[app_proxy] url` in
-     `shopify.app.toml` and run `npm run deploy:shopify` again.
+   - Host: the Render subdomain `https://beth-lw31.onrender.com` (no DNS needed). To move to a custom domain later, update `application_url`, `[auth] redirect_urls`, `[app_proxy] url` and `SHOPIFY_APP_URL`, then run `npm run deploy:shopify`.
 
 7. **Install** (needs your approval, because it is the first change on the production store):
    Dev Dashboard → Beth → **Installs** card → **Install app** → `360cookware` → review the read-only

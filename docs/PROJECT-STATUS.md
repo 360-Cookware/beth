@@ -30,7 +30,7 @@ _Last updated: 2026-11-17_
 - Architecture, roadmap, risks and cost model documented.
 - Monorepo: npm workspaces (`packages/*`, `apps/*`), TypeScript 5.9 strict, Vitest 5, ESLint 10 + typescript-eslint, Prettier, CI workflow (`.github/workflows/ci.yml`, with a PostgreSQL service and a Prisma drift check).
 - **Shopify app `apps/beth-app`** from the official React Router template (MIT, notice kept in `TEMPLATE-LICENSE.md`):
-  - `shopify.app.toml`: read-only scopes, webhooks, `Article` Events, app proxy `/apps/beth`, compliance topics. Planned host `beth-api.360cookware.com` (no DNS yet, so nothing is sent anywhere).
+  - `shopify.app.toml`: read-only scopes, webhooks, `Article` Events, app proxy `/apps/beth`, compliance topics. Host `https://beth-lw31.onrender.com` (Render, free plan, staging).
   - PostgreSQL schema and initial migration: 13 tables (architecture §7 plus `WebhookDelivery`). Rust-free Prisma Client with the `pg` adapter.
   - Admin pages: **Home** (sync status, "Sync knowledge now") and **Knowledge quality** (conflicts, missing specs, broken recipe links, from live data).
   - Routes: `/proxy/health` (app proxy, signature verified), `/healthz`, `/readyz`, webhooks for products, inventory, articles, uninstall, scopes and privacy compliance.
@@ -103,7 +103,7 @@ apps/beth-app/test/knowledge-sync.test.ts
 |---|---|---|---|---|
 | B1 | Create the Beth app in the Dev Dashboard, paste the client ID, `npm run deploy:shopify` | Deploying config and extension | Juan | ⏳ Steps in `docs/03-shopify-app-setup.md` Part A |
 | B2 | OpenAI API project, key, budget limits and GPT-Live access | Live AI runs (code proceeds with a fake provider) | 360 Cookware | ⏸️ Deferred to the end |
-| B3 | Render account, PostgreSQL, DNS `beth-api.360cookware.com` | Install, live sync, staging E2E | 360 Cookware | ⏸️ Deferred to the end |
+| B3 | Render hosting | Install, live sync, staging E2E | Juan | ✅ Staging on Render free: web service `beth` (`https://beth-lw31.onrender.com`) + Postgres `beth-staging-db` (free, expires 2026-12-17) |
 | B4 | Staging theme | E2E tests | — | ✅ `Beth Updates` (170070245465) |
 | P1 | Push to GitHub | Remote backup and CI | Juan | ⏳ `git push origin main` (the build tooling has no GitHub credentials) |
 | D1–D6 | Merchant data tasks (conflicts, legacy tabs, missing specs, broken recipe links, tone guide, retention) | Answer quality | Product, content, legal | Open |

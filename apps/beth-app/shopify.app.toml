@@ -5,12 +5,11 @@
 # See docs/03-shopify-app-setup.md.
 #
 # client_id is public. The client secret never goes in this repository.
-# beth-api.360cookware.com is the planned API host (blocker B3). It has no DNS record yet,
-# so nothing is sent anywhere until hosting exists and the app is installed.
+# API host: the Render service beth (https://beth-lw31.onrender.com). Staging on the free plan.
 
 client_id = "7652d09d6d75e9918d3a107d79d874ff"
 name = "Beth"
-application_url = "https://beth-api.360cookware.com"
+application_url = "https://beth-lw31.onrender.com"
 embedded = true
 
 [build]
@@ -29,7 +28,7 @@ automatically_update_urls_on_dev = true
 scopes = "read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies,write_app_proxy"
 
 [auth]
-redirect_urls = [ "https://beth-api.360cookware.com/auth/callback" ]
+redirect_urls = [ "https://beth-lw31.onrender.com/auth/callback" ]
 
 [webhooks]
 api_version = "2026-10"
@@ -82,7 +81,7 @@ api_version = "2026-10"
 
 # Storefront → https://www.360cookware.com/apps/beth/* → <url>/*  (Shopify signs every request)
 [app_proxy]
-url = "https://beth-api.360cookware.com/proxy"
+url = "https://beth-lw31.onrender.com/proxy"
 subpath = "beth"
 prefix = "apps"
 
