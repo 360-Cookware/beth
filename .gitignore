@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+# builds
+dist/
+build/
+.cache/
+*.tsbuildinfo
+coverage/
+# env & secrets
+.env
+.env.*
+!.env.example
+# logs
+*.log
+npm-debug.log*
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+# Shopify CLI
+.shopify/
