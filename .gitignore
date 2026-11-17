@@ -21,3 +21,5 @@ Thumbs.db
 .idea/
 # Shopify CLI
 .shopify/
+# React Router typegen
+.react-router/

@@ -1,0 +1,89 @@
+# Beth — AI kitchen concierge for 360 Cookware (custom app, store: 360cookware.myshopify.com).
+#
+# This file is the source of truth for the app configuration. Apply it with
+#   npm run deploy -w beth-app        (runs `shopify app deploy`)
+# See docs/03-shopify-app-setup.md.
+#
+# client_id is public. The client secret never goes in this repository.
+# beth-api.360cookware.com is the planned API host (blocker B3). It has no DNS record yet,
+# so nothing is sent anywhere until hosting exists and the app is installed.
+
+client_id = ""
+name = "Beth"
+application_url = "https://beth-api.360cookware.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+include_config_on_deploy = true
+
+[access_scopes]
+# Read-only, least privilege:
+#   read_products            catalog, variants, collections, product metafields (specs)
+#   read_inventory           inventory_levels/update webhook (availability)
+#   read_content             Recipes blog articles and Recipe Kit metafields
+#   read_online_store_pages  care and warranty pages
+#   read_legal_policies      refund and shipping policies
+# read_orders is added in the analytics phase (order attribution), with its own approval.
+scopes = "read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies"
+
+[auth]
+redirect_urls = [ "https://beth-api.360cookware.com/auth/callback" ]
+
+[webhooks]
+api_version = "2026-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+  # Knowledge sync: re-fetch the product through the Admin API (payload is not trusted as data).
+  [[webhooks.subscriptions]]
+  topics = [ "products/create", "products/update", "products/delete" ]
+  uri = "/webhooks/products"
+
+  # Availability: coalesced refresh, at most one per product per window.
+  [[webhooks.subscriptions]]
+  topics = [ "inventory_levels/update" ]
+  uri = "/webhooks/inventory"
+
+  [[webhooks.subscriptions]]
+  compliance_topics = [ "customers/data_request" ]
+  uri = "/webhooks/customers/data_request"
+
+  [[webhooks.subscriptions]]
+  compliance_topics = [ "customers/redact" ]
+  uri = "/webhooks/customers/redact"
+
+  [[webhooks.subscriptions]]
+  compliance_topics = [ "shop/redact" ]
+  uri = "/webhooks/shop/redact"
+
+# Recipes live in the "recipes" blog. Article changes arrive through the Events API (Article topic).
+[events]
+api_version = "2026-10"
+
+  [[events.subscription]]
+  handle = "beth-recipe-articles"
+  topic = "Article"
+  actions = [ "create", "update", "delete" ]
+  triggers = [ "article.*" ]
+  uri = "/webhooks/articles"
+  query = """
+  query beth_article($articleId: ID!) {
+    article(id: $articleId) { id handle blog { id } }
+  }
+  """
+
+# Storefront → https://www.360cookware.com/apps/beth/* → <url>/*  (Shopify signs every request)
+[app_proxy]
+url = "https://beth-api.360cookware.com/proxy"
+subpath = "beth"
+prefix = "apps"
+
+[pos]
+embedded = false

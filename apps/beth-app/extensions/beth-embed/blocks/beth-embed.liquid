@@ -1,0 +1,97 @@
+{%- comment -%}
+  Beth app embed. Renders a small JSON config only when the app has enabled the widget
+  (app-owned metafield beth.widget_enabled, set from the Beth admin). The loader script
+  (assets/beth-loader.js) exits immediately when the config is absent, so enabling the embed
+  has no visible effect until Beth is switched on. No customer data is written to the page.
+{%- endcomment -%}
+{%- liquid
+  assign beth_enabled = app.metafields.beth.widget_enabled.value
+  assign beth_show = false
+  case request.page_type
+    when 'product'
+      assign beth_show = block.settings.show_on_product
+    when 'collection'
+      assign beth_show = block.settings.show_on_collection
+    when 'index'
+      assign beth_show = block.settings.show_on_home
+    when 'article', 'blog'
+      assign beth_show = block.settings.show_on_recipes
+    when 'cart', 'password', 'gift_card', 'customers/account', 'customers/order', 'customers/login'
+      assign beth_show = false
+    else
+      assign beth_show = block.settings.show_on_other
+  endcase
+-%}
+{%- if beth_enabled and beth_show -%}
+  <script type="application/json" id="beth-config">
+    {
+      "v": 1,
+      "proxy": "/apps/beth",
+      "position": {{ block.settings.position | json }},
+      "label": {{ block.settings.label | json }},
+      "offset": {{ block.settings.offset_bottom | json }},
+      "offsetMobile": {{ block.settings.offset_bottom_mobile | json }},
+      "pageType": {{ request.page_type | json }},
+      "product": {%- if product -%}{{ product.handle | json }}{%- else -%}null{%- endif -%},
+      "locale": {{ request.locale.iso_code | json }},
+      "country": {{ localization.country.iso_code | json }},
+      "currency": {{ cart.currency.iso_code | json }}
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Beth concierge",
+  "target": "body",
+  "javascript": "beth-loader.js",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "The launcher appears only after Beth is enabled in the Beth app."
+    },
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Launcher label",
+      "default": "Ask Beth"
+    },
+    {
+      "type": "select",
+      "id": "position",
+      "label": "Launcher position",
+      "options": [
+        { "value": "bottom-right", "label": "Bottom right" },
+        { "value": "bottom-left", "label": "Bottom left" }
+      ],
+      "default": "bottom-right"
+    },
+    {
+      "type": "range",
+      "id": "offset_bottom",
+      "label": "Distance from bottom (desktop)",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "offset_bottom_mobile",
+      "label": "Distance from bottom (mobile, clears the sticky add to cart)",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 88
+    },
+    { "type": "header", "content": "Pages" },
+    { "type": "checkbox", "id": "show_on_product", "label": "Product pages", "default": true },
+    { "type": "checkbox", "id": "show_on_collection", "label": "Collection pages", "default": true },
+    { "type": "checkbox", "id": "show_on_home", "label": "Home page", "default": true },
+    { "type": "checkbox", "id": "show_on_recipes", "label": "Recipes (blog and articles)", "default": true },
+    { "type": "checkbox", "id": "show_on_other", "label": "Other pages", "default": false }
+  ]
+}
+{% endschema %}

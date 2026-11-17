@@ -93,7 +93,7 @@ Traffic is modest (about 4,100 conversations a month expected; see `08-cost-mode
 
 ### 2.3 Database: PostgreSQL + Prisma (chosen)
 
-Postgres stores sessions, the knowledge snapshot, conversations, events, costs and attribution. Prisma is the Shopify template default (session storage), with typed migrations. pgvector is **not** needed in v1: the catalog (~140 online products) and recipes (~260) are searched in memory with BM25 plus structured filters (implemented in `@beth/core`, sub-millisecond). Embeddings can be added later if evaluation shows recall problems.
+Postgres stores sessions, the knowledge snapshot, conversations, events, costs and attribution. Prisma is the Shopify template default (session storage), with typed migrations. The app uses the **Rust-free Prisma Client** (`engineType = "client"` with `@prisma/adapter-pg`, GA since Prisma 6.16): no native query engine to download or ship, so builds are simpler and work on any host. Migrations still run with `prisma migrate deploy`. pgvector is **not** needed in v1: the catalog (~140 online products) and recipes (~260) are searched in memory with BM25 plus structured filters (implemented in `@beth/core`, sub-millisecond). Embeddings can be added later if evaluation shows recall problems.
 
 ### 2.4 AI provider and models: OpenAI Responses API behind an adapter (chosen)
 
@@ -138,6 +138,7 @@ Voice states in the UI map to events: Idle → Listening (mic open) → Processi
 ### 2.6 Storefront widget: Preact + TypeScript, lazy-loaded (chosen)
 
 - **Loader** (`extensions/beth-embed/assets/beth-loader.js`, under 10 KB gzipped, Shopify's theme-check threshold): renders the launcher and preconnects on hover. On click it runs `import()` on the UI bundle from the extension assets, so the Shopify CDN serves it.
+- **Visibility gate (implemented):** the embed renders its config only when the app-owned metafield `beth.widget_enabled` (set from the Beth admin) is true and the page type is allowed in the embed settings. The loader makes **no network request on page load**: no per-page-view backend traffic, and enabling the embed in a theme has no visible effect until Beth is switched on. Measured size: 4.8 KB, 2.1 KB gzipped.
 - **UI bundle** (Preact, about 40 KB gzipped target): all components listed in the brief. Shadow DOM isolates styles from the theme's CSS and vice versa. Mobile: full-height sheet. Desktop: 420 px side panel.
 - React was considered. Preact gives the same component model at roughly a tenth of the runtime size, which matters on a theme that already loads many scripts.
 
@@ -177,6 +178,13 @@ sequenceDiagram
 | Policies and pages | Admin GraphQL | Daily | — |
 
 Each sync run writes a `KnowledgeSyncRun` row with counts, conflicts and errors, and regenerates the data-quality report shown in the admin dashboard.
+
+**Implementation (2026-11-17, `apps/beth-app/app/services/knowledge`):**
+
+- Full sync: `bulkOperationRunQuery` (`groupObjects: false`, required in 2026-10) over products with collections, the metafield index (namespace/key/type only, never values) and variants. The JSONL is re-assembled by GID type (`assembleBulkProducts` in `@beth/core`). Recipes use a paginated `articles` query filtered by the `recipes` blog ID.
+- Incremental: webhook and Events handlers never trust the payload as data. They record the delivery ID (idempotency, `WebhookDelivery`), then schedule a **trailing refresh** that re-reads the record from the Admin API (products 10 s, articles 5 s, inventory 60 s), so bursts collapse into one read.
+- Snapshots store the mapped Admin API input (`ShopifyProductInput` / `ShopifyArticleInput`) with a SHA-256 hash. Unchanged records are skipped, products keep 8 versions, and normalization is recomputed on load so engine improvements apply without a re-sync.
+- Safety: an empty export never marks products as deleted. A full sync is single-flight per shop.
 
 ---
 
@@ -236,11 +244,12 @@ Every visual element is a typed block validated with Zod on both ends:
 
 The widget renders blocks deterministically. The model never sends HTML.
 
-## 7. Data model (Prisma, Phase 1 migration)
+## 7. Data model (Prisma, Phase 1 migration — implemented in `apps/beth-app/prisma`)
 
 | Table | Key fields | Retention |
 |---|---|---|
 | `Session` | Shopify OAuth session (template) | — |
+| `WebhookDelivery` | delivery or event ID, shop, topic, receivedAt (idempotency) | 7 days |
 | `Settings` | launcher placement, greeting, enabled pages, promotions, budgets, model routing | — |
 | `ProductSnapshot` | productId, handle, normalized JSON, updatedAt, hash | Current plus last 7 versions |
 | `RecipeSnapshot` | articleId, handle, normalized JSON, updatedAt | Current |
@@ -268,17 +277,18 @@ No raw audio is stored. Transcripts are stored only as PII-scrubbed text, for th
 | Failure handling | AI down: apology plus links to search and customer care. Shopify down: last snapshot with a "price may have changed" notice and add to cart disabled. Voice down: switch to text. DB down: stateless degraded mode (no memory) with alerting. |
 | Observability | Structured JSON logs (pino) with request and conversation IDs, error tracking, latency and cost metrics per feature and model, uptime checks |
 
-## 9. Repository structure (target)
+## 9. Repository structure
 
 ```
 beth/
 ├─ apps/
-│  └─ beth-app/                 # Shopify app (React Router template): admin, app proxy, API, webhooks
-│     ├─ app/                   # routes, services (chat, voice, analytics, shopify)
-│     ├─ prisma/                # schema + migrations
+│  └─ beth-app/                 # ✅ Shopify app (React Router template): admin, app proxy, webhooks, sync
+│     ├─ app/                   # ✅ routes, services (knowledge sync) · ⏳ chat, voice, analytics
+│     ├─ prisma/                # ✅ schema + initial migration (PostgreSQL)
 │     ├─ extensions/
-│     │  └─ beth-embed/         # theme app extension: app embed block + loader + UI bundle assets
-│     └─ shopify.app.toml
+│     │  └─ beth-embed/         # ✅ app embed block + loader · ⏳ UI bundle (packages/widget)
+│     ├─ test/                  # ✅ sync integration test (real PostgreSQL, fake Admin API)
+│     └─ shopify.app.toml       # ✅ scopes, webhooks, events, app proxy (source of truth)
 ├─ packages/
 │  ├─ core/                     # ✅ knowledge engines, search, pricing (pure TS, tested)
 │  ├─ ai/                       # orchestration, prompts, tool schemas, provider adapters, evals
@@ -286,13 +296,13 @@ beth/
 ├─ fixtures/shopify/            # ✅ read-only catalog & recipe snapshots for tests
 ├─ scripts/                     # ✅ knowledge report; sync and maintenance scripts
 ├─ docs/                        # ✅ audit, architecture, roadmap, cost model, status, data quality
-└─ .github/workflows/           # CI: typecheck, lint, test, build (template in tools/ci/ci.yml)
+└─ .github/workflows/           # ✅ CI: drift check, typecheck, lint, test (PostgreSQL), build
 ```
 
 ## 10. Environments
 
 | Environment | Store | Theme | Backend | Purpose |
 |---|---|---|---|---|
-| Local | Dev store (to be created) | Dev theme | `shopify app dev` tunnel | Development |
-| Staging | 360cookware (production store), **unpublished theme copy** | e.g. `Beth Updates` | Render staging service + staging DB | End-to-end tests with real catalog, no shopper impact |
+| Local | Dev store (optional, `shopify store create dev`) | Dev theme | `shopify app dev` tunnel | Development |
+| Staging | 360cookware (production store), **unpublished theme** | **`Beth Updates`** (`gid://shopify/OnlineStoreTheme/170070245465`, unpublished, created 2026-11-16, verified 2026-11-17) | Render staging service + staging DB | End-to-end tests with real catalog, no shopper impact |
 | Production | 360cookware | Live theme with app embed enabled *(needs authorization)* | Render production | Rollout behind a percentage flag, then 100% |

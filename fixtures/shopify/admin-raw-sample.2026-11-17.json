@@ -1,0 +1,3181 @@
+{
+ "meta": {
+  "source": "Shopify Admin GraphQL API 2026-10 (read-only export), raw node shape before mapping",
+  "note": "Small sample used to test admin-mapping against catalog/recipes fixtures. Same export as catalog.2026-11-17.json.",
+  "exportedAt": "2026-11-17"
+ },
+ "products": [
+  {
+   "id": "gid://shopify/Product/343778327",
+   "legacyResourceId": "343778327",
+   "handle": "9-piece-stainless-steel-cookware-set",
+   "title": "9 Piece Stainless Steel Cookware Set",
+   "status": "ACTIVE",
+   "productType": "Sets",
+   "vendor": "Americraft Cookware",
+   "tags": [
+    "11.5 inch fry pan",
+    "11.5\" Fry Pan",
+    "2.3 Quart",
+    "2.3 Quart Casserole",
+    "3 Quart Saucepan",
+    "3.5 Quart Sauté Pan",
+    "360 Cookware",
+    "6 Quart Stock Pot",
+    "9 piece set",
+    "American Made",
+    "Category_Sets",
+    "induction",
+    "induction cookware",
+    "Induction Ready",
+    "Made In America",
+    "Made in the USA",
+    "mw_grouped_product",
+    "set",
+    "sets",
+    "Sets-Cookware",
+    "Size_Set",
+    "Slow Cooker",
+    "Slow cooker base",
+    "Stainless Steel",
+    "starter set"
+   ],
+   "templateSuffix": "set-product",
+   "onlineStoreUrl": "https://www.360cookware.com/products/9-piece-stainless-steel-cookware-set",
+   "publishedAt": "2024-08-19T14:21:02Z",
+   "updatedAt": "2026-11-17T11:42:45Z",
+   "totalInventory": -266,
+   "tracksInventory": true,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<p> </p>\n<p><meta charset=\"UTF-8\">Here’s your opportunity to outfit your kitchen with all of the cookware essentials you’ll need for big family dinner or small brunch meals. We’ve made it easy to choose by curating a set from our collection of some of the most versatile pieces at-home chefs use most often. Now, all recipes will become a possibility and you’ll experience why our 360 Vapor® cooking technology is a favorite of chefs around the world for its ability to retain more flavor and moisture while preserving the freshness and nutritious value of the foods you cook. You’ll find flavor and healthy cooking combining together like never before. Our 9-piece cookware set includes the <a href=\"https://www.360cookware.com/collections/sauce-pans/products/copy-of-stainless-steel-3-quart-saucepan-with-cover\">3-quart Saucepan with cover</a>, <a href=\"https://www.360cookware.com/collections/sauce-pans/products/stainless-steel-2-3-quart-casserole-with-cover\">2.3-quart Casserole Pan with cover</a>, <a href=\"https://www.360cookware.com/collections/saute-pans/products/stainless-steel-3-5-quart-saute-pan-with-cover\">3.5-quart Sauté pan with cover</a>, <a href=\"https://www.360cookware.com/collections/stock-pots/products/stainless-steel-6-quart-gourmet-stockpot-with-cover?variant=22026365304921\">6-quart Slow Cooker Stock Pot with cover</a> and our generously-sized <a href=\"https://www.360cookware.com/collections/fry-pans/products/stainless-steel-11-5-inch-fry-pan\">11.5\" Fry Pan</a> along with a <a href=\"https://www.360cookware.com/collections/slow-cooker/products/slow-cooker-base\">FREE Slow-Cooker Base</a>. The base gives you the flexibility to slow cook on your countertop and keep dishes warm during serving.</p>\n<p> </p>\n<p style=\"text-align: left;\"><strong data-mce-fragment=\"1\"><u data-mce-fragment=\"1\">Product Features:</u></strong><u data-mce-fragment=\"1\"></u><br data-mce-fragment=\"1\">Ergonomic Handles<br data-mce-fragment=\"1\">Oven Safe Up To 500 Degrees<br data-mce-fragment=\"1\">Stay Cool Long Handles<br data-mce-fragment=\"1\">Induction Capable<br data-mce-fragment=\"1\">Cladded Metal<br data-mce-fragment=\"1\">.110 Gauge<br data-mce-fragment=\"1\">T-316 Surgical Grade Stainless Steel<br data-mce-fragment=\"1\">Handcrafted in the U.S.A<br><br><strong><span style=\"text-decoration: underline;\">This Set Includes:</span></strong><br><a href=\"https://www.360cookware.com/products/copy-of-stainless-steel-3-quart-saucepan-with-cover\" title=\"3 Quart Saucepan with cover\">3 Quart Saucepan with Cover</a>, <a href=\"https://www.360cookware.com/products/stainless-steel-2-3-quart-casserole-with-cover\" title=\"2.3 Quart Casserole Pan with Cover\">2.3 Quart Casserole Pan with Cover</a>, <a href=\"https://www.360cookware.com/products/stainless-steel-3-5-quart-saute-pan-with-cover\" title=\"3.5 Quart Sauté Pan with Cover\"> 3.5 Quart Sauté Pan with Cover</a>, <a href=\"https://www.360cookware.com/collections/stock-pots/products/stainless-steel-6-quart-gourmet-stockpot-with-cover?variant=22026365304921\" title=\"6 Quart Stock Pot with Cover\">6 Quart Gourmet Stock Pot with Cover</a>, <a href=\"https://www.360cookware.com/products/stainless-steel-11-5-inch-fry-pan\" title=\"11.5 inch Fry Pan\">11.5\" Fry Pan</a>, <a href=\"https://www.360cookware.com/products/slow-cooker-base?_pos=1&amp;_sid=799190c00&amp;_ss=r\">FREE Slow Cooker Base</a>, <a href=\"https://www.360cookware.com/collections/accessories/products/americraft-stainless-steel-cleaner-2-pack?variant=801717619\">FREE Stainless Steel Cleaner</a>, Quick-Start Trifold (full <a href=\"/pages/use-care\">Use &amp; Care Guide</a> online) and Certificate of Authenticity.</p>",
+   "category": {
+    "fullName": "Home & Garden > Kitchen & Dining > Cookware & Bakeware > Cookware > Cookware Sets"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "999.95"
+    },
+    "maxVariantPrice": {
+     "amount": "999.95"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/products/Group_08copyREVISED.jpg?v=1623504137",
+      "altText": "Angled front view of 9-piece stainless steel cookware set showcasing polished finish and included lids on white background",
+      "width": 2048,
+      "height": 2048
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 8
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "sets"
+     },
+     {
+      "handle": "360-slow-cooker"
+     },
+     {
+      "handle": "overstock-sale"
+     },
+     {
+      "handle": "36-off-sale"
+     },
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "all-cookware-and-bakeware-hm"
+     },
+     {
+      "handle": "cookware"
+     },
+     {
+      "handle": "in-house-discount-code-items"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "sets-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     },
+     {
+      "handle": "aw_freshmeals_cookware"
+     },
+     {
+      "handle": "in-house-discount-code-items-copy"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "ptabs",
+      "key": "tabs",
+      "type": "string"
+     },
+     {
+      "namespace": "google",
+      "key": "google_product_type",
+      "type": "string"
+     },
+     {
+      "namespace": "google",
+      "key": "custom_product",
+      "type": "string"
+     },
+     {
+      "namespace": "google",
+      "key": "gmc_id",
+      "type": "string"
+     },
+     {
+      "namespace": "spr",
+      "key": "reviews",
+      "type": "string"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_count",
+      "type": "integer"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_rating",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1000",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1001",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "main_widget_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "google_product_category",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "custom_product",
+      "type": "boolean"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "sub_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "features",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "video_url",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "includes",
+      "type": "string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360SetInclude",
+      "key": "setInclude_product",
+      "type": "string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "heading",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "set_buy_save",
+      "key": "product_detail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "short_details",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "label",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "ingredients",
+      "type": "string"
+     },
+     {
+      "namespace": "custom",
+      "key": "product_title",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "care__product_guides",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "answer",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_icon",
+      "key": "text",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "question",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360BundleSet",
+      "key": "product",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360BundleSet",
+      "key": "free_in_bundle",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360BundleSet",
+      "key": "qty",
+      "type": "json_string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_average",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_count",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "reviews",
+      "key": "rating_count",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "reviews",
+      "key": "rating",
+      "type": "rating"
+     },
+     {
+      "namespace": "CW360SetInclude",
+      "key": "bundle_free",
+      "type": "string"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "stack-discounts",
+      "key": "collectionIds",
+      "type": "json"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_reviews",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_star_distribution",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_product_filters",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "llm_schema_html",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "custom",
+      "key": "bf2026_discount",
+      "type": "number_decimal"
+     }
+    ]
+   },
+   "specTable": {
+    "value": "<table style=\"width: 100%;\" id=\"isPasted\"><tbody><tr><td style=\"width: 50.0000%;\">Gauge:&nbsp;<br></td><td style=\"width: 50.0000%;\">.110<br></td></tr><tr><td style=\"width: 50.0000%;\">Material:<br></td><td style=\"width: 50.0000%;\">T-316 Surgical Grade Stainless Steel<br></td></tr><tr><td style=\"width: 50.0000%;\">Oven Safe:&nbsp;<br></td><td style=\"width: 50.0000%;\">Up to 500°F<br></td></tr><tr><td style=\"width: 50.0000%;\">Handles:<br></td><td style=\"width: 50.0000%;\">Stay Cool Long Handles<br></td></tr><tr><td style=\"width: 50.0000%;\">Cooktop Compatibility:&nbsp;<br></td><td style=\"width: 50.0000%;\">All, including induction<br></td></tr><tr><td style=\"width: 50.0000%;\">Manufacturing:&nbsp;<br></td><td style=\"width: 50.0000%;\">Handcrafted in the U.S.A<br></td></tr></tbody></table>"
+   },
+   "includes": {
+    "value": "<p>Transform your kitchen with our Home Chef Stainless Steel Cookware Set. Featuring our revolutionary 360 Vapor® cooking technology, this curated collection retains more flavor and nutrients while preserving freshness. From family dinners to intimate brunches, this set offers versatility and superior performance for all your culinary needs.&nbsp;</p><p>What's Included:&nbsp;<br><br>3 Quart Saucepan with Cover&nbsp;<br>2.3 Quart Casserole Pan with Cover&nbsp;<br>3.5 Quart Sauté Pan with Cover&nbsp;<br>6 Quart Stock Pot Slow Cooker Version with Cover&nbsp;<br>11.5\" Fry Pan&nbsp;<br>FREE Slow Cooker Base&nbsp;<br>FREE Stainless Steel Cleaner&nbsp;<br>Quick-Start Trifold (full <a href=\"/pages/use-care\">Use &amp; Care Guide</a> online)&nbsp;<br>Certificate of Authenticity</p>"
+   },
+   "shortDetails": {
+    "value": "[\"Our 9-piece stainless steel set with 360 Vapor® technology includes versatile cookware for various meals, enhancing flavor and nutrition, plus a free Slow-Cooker Base for added convenience.\"]"
+   },
+   "ptabs": {
+    "value": "<!-- Product tabs -->\n\n<!-- Tab navigation -->\n<ul class=\"fd-product-tabs\">\n  \n    <li><a href=\"#ptab-product-features\">Product Features</a></li>\n  \n    <li><a href=\"#ptab-in-the-box\">In the Box</a></li>\n  \n</ul>\n\n<!-- Tab panes -->\n<div class=\"fd-product-tab-content\">\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-product-features\">\n      <ul>\r\n<li>Ergonomic Handles</li>\r\n<li>Oven Safe</li>\r\n<li>Stay Cool Handles</li>\r\n<li>Dishwasher Safe</li>\r\n<li>Induction Capable</li>\r\n<li>Cladded Metal</li>\r\n<li>.110 Gauge</li>\r\n<li>T-304 Surgical Grade Stainless Steel</li>\r\n<li>Handcrafted in the USA.</li>\r\n</ul>\n    </div>\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-in-the-box\">\n      <ul>\r\n<li>Use &amp; Care Guide</li>\r\n<li>Certificate of Authenticity</li>\r\n<li>Cookware &amp; Bakeware Catalog</li>\r\n<li>2.3 Quart Stainless Steel Casserole with Cover</li>\r\n<li>3 Quart Stainless Steel Saucepan with Cover</li>\r\n<li>3.5 Quart Stainless Steel Saut&eacute; Pan with Cover</li>\r\n<li>6 Quart Stainless Steel Stock Pot with Cover</li>\r\n<li>11.5\" Stainless Steel Fry Pan&nbsp;</li>\r\n<li>Slow Cooker Base</li>\r\n</ul>\n    </div>\n  \n</div>"
+   },
+   "care": {
+    "value": "{\"en\":\"<p>To maintain optimal performance, hand-wash each piece with warm, soapy water and dry immediately. While dishwasher-safe, hand-washing will preserve the superior finish and cooking properties of each item, ensuring years of exceptional cooking.&nbsp;</p>\",\"es\":\"\"}"
+   },
+   "faqQ": {
+    "value": "[{\"en\":\"\",\"es\":\"\"}]"
+   },
+   "faqA": {
+    "value": "[{\"en\":\"\",\"es\":\"\"}]"
+   },
+   "customTitle": {
+    "value": "360 Home Chef Set "
+   },
+   "bf2026": {
+    "value": "36.0"
+   },
+   "rating": {
+    "value": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"4.8\"}"
+   },
+   "ratingCount": {
+    "value": "76"
+   },
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": null,
+   "setInclude": {
+    "value": "stainless-steel-3-quart-saucepan-with-cover|stainless-steel-2-3-quart-casserole-with-cover|stainless-steel-3-5-quart-saute-pan-with-cover|stainless-steel-6-quart-gourmet-stockpot-with-cover|360-stainless-steel-cleaner-1-pack|stainless-steel-11-5-inch-fry-pan"
+   },
+   "bundleSet": {
+    "value": "[\"stainless-steel-3-quart-saucepan-with-cover\",\"stainless-steel-2-3-quart-casserole-with-cover\",\"stainless-steel-3-5-quart-saute-pan-with-cover\",\"stainless-steel-6-quart-stockpot-with-cover\",\"stainless-steel-11-5-inch-fry-pan\",\"slow-cooker-base\",\"360-stainless-steel-cleaner-1-pack\"]"
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/798732535",
+      "legacyResourceId": "798732535",
+      "title": "Default Title",
+      "sku": "IL-009T-PP",
+      "price": "999.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -266,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/434401127",
+   "legacyResourceId": "434401127",
+   "handle": "stainless-steel-1-quart-saucepan-with-cover-new-logo",
+   "title": "1 Quart Saucepan with Cover",
+   "status": "ACTIVE",
+   "productType": "Saucepan",
+   "vendor": "Americraft Cookware",
+   "tags": [
+    "1 quart",
+    "1 Quart Saucepan",
+    "360 Cookware",
+    "bestseller",
+    "Category_Saucepan",
+    "ChiefChoice",
+    "Cookware",
+    "CoveredSaucepan",
+    "induction",
+    "induction cookware",
+    "Induction Ready",
+    "Measure_1qt",
+    "sale",
+    "Sauce Pans-Cookware",
+    "Saucepan",
+    "Size_Small",
+    "stainless",
+    "Stainless Steel",
+    "Stainless Steel Cookware",
+    "starter piece",
+    "Surgical grade stainless steel",
+    "T-304 Surgical Grade Stainless Steel",
+    "vapor cooking",
+    "vapor technology",
+    "Vegetable",
+    "veggies",
+    "waterless",
+    "waterless cookware"
+   ],
+   "templateSuffix": "stainless-steel-saucepan",
+   "onlineStoreUrl": "https://www.360cookware.com/products/stainless-steel-1-quart-saucepan-with-cover-new-logo",
+   "publishedAt": "2024-08-19T14:21:02Z",
+   "updatedAt": "2026-11-17T13:46:47Z",
+   "totalInventory": 130,
+   "tracksInventory": true,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<p dir=\"ltr\"><span>Small size. Everyday usefulness.</span></p>\n<p dir=\"ltr\"><span>Perfect for sauces, oatmeal, grains, vegetables, reheating and smaller portions, the 1 Quart Saucepan is a compact kitchen essential you’ll reach for again and again.</span></p>\n<p dir=\"ltr\"><span>The stainless steel cover gives you the flexibility to cook traditionally or use Vapor® Cooking to let the natural moisture in your food do more of the work.</span></p>\n<p dir=\"ltr\"><span>Made in America from high-quality stainless steel with zero chemical nonstick coatings, it’s made to help you feel good about what you’re cooking with and what you put on the table.</span></p>\n<p dir=\"ltr\"><span>Small, versatile and built to last for generations.</span></p>\n<ul></ul>",
+   "category": {
+    "fullName": "Home & Garden > Kitchen & Dining > Cookware & Bakeware > Cookware > Saucepans"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "189.95"
+    },
+    "maxVariantPrice": {
+     "amount": "189.95"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/products/IL001-PC_1.jpg?v=1650385654",
+      "altText": "Front three-quarter view of 1 Quart Saucepan with Cover showcasing its long handle against a white background",
+      "width": 2048,
+      "height": 2048
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 4
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "overstock-sale"
+     },
+     {
+      "handle": "36-off-sale"
+     },
+     {
+      "handle": "create-the-perfect-set"
+     },
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "sauce-pans"
+     },
+     {
+      "handle": "all-cookware-and-bakeware-hm"
+     },
+     {
+      "handle": "cookware"
+     },
+     {
+      "handle": "in-house-discount-code-items"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     },
+     {
+      "handle": "the-food-babe"
+     },
+     {
+      "handle": "aw_freshmeals_cookware"
+     },
+     {
+      "handle": "factory-refurbished-cookware"
+     },
+     {
+      "handle": "in-house-discount-code-items-copy"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "ptabs",
+      "key": "tabs",
+      "type": "string"
+     },
+     {
+      "namespace": "google",
+      "key": "gmc_id",
+      "type": "string"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_count",
+      "type": "integer"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_rating",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1000",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1001",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "main_widget_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "google_product_category",
+      "type": "string"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "360cookware",
+      "key": "Productlinked",
+      "type": "list.product_reference"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "video",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "heading",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "see_it_in_action",
+      "type": "metaobject_reference"
+     },
+     {
+      "namespace": "custom",
+      "key": "select_product_for_referenced",
+      "type": "product_reference"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "essentials_description",
+      "type": "string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "product_for_upgrade_to_set",
+      "type": "product_reference"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "video_thumbnail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "video_url",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "sub_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "label",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "set_buy_save",
+      "key": "product_detail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product",
+      "type": "product_reference"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "ingredients",
+      "type": "string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "includes",
+      "type": "string"
+     },
+     {
+      "namespace": "custom",
+      "key": "product_title",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product_image",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "whats_included",
+      "type": "string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "product_details",
+      "type": "string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "answer",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "question",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "care__product_guides",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_icon",
+      "key": "text",
+      "type": "json_string"
+     },
+     {
+      "namespace": "booster_apps_seo",
+      "key": "config",
+      "type": "json_string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_average",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_count",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "reviews",
+      "key": "rating_count",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "reviews",
+      "key": "rating",
+      "type": "rating"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "stack-discounts",
+      "key": "collectionIds",
+      "type": "json"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_reviews",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_star_distribution",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_product_filters",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "llm_schema_html",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "custom",
+      "key": "bf2026_discount",
+      "type": "number_decimal"
+     }
+    ]
+   },
+   "specTable": {
+    "value": "<table style=\"width: 100%;\"><tbody><tr><td style=\"width: 49.8896%;\">Diameter (Rim to Rim):<br></td><td style=\"width: 49.8896%;\">8.07\"<br></td></tr><tr><td style=\"width: 49.8896%;\">Inside Cooking Diameter:&nbsp;<br></td><td style=\"width: 49.8896%;\">6.40\"<br></td></tr><tr><td style=\"width: 49.8896%;\">Inside Height:<br></td><td style=\"width: 49.8896%;\">2.5\"<br></td></tr><tr><td style=\"width: 49.8896%;\">Gauge:&nbsp;<br></td><td style=\"width: 49.8896%;\">.110<br></td></tr><tr><td style=\"width: 49.8896%;\">Material:<br></td><td style=\"width: 49.8896%;\">T-316 Surgical Grade Stainless Steel<br></td></tr><tr><td style=\"width: 49.8896%;\">Oven Safe:&nbsp;<br></td><td style=\"width: 49.8896%;\">Up to 500°F<br></td></tr><tr><td style=\"width: 49.8896%;\">Handle:<br></td><td style=\"width: 49.8896%;\">Stay Cool Long Handle<br></td></tr><tr><td style=\"width: 49.8896%;\">Cooktop Compatibility:<br></td><td style=\"width: 49.8896%;\">All, including induction<br></td></tr><tr><td style=\"width: 49.8896%;\">Manufacturing:&nbsp;<br></td><td style=\"width: 49.8896%;\">Handcrafted in the U.S.A<br></td></tr></tbody></table>"
+   },
+   "includes": {
+    "value": "<p id=\"isPasted\">Experience culinary innovation with our 1-quart stainless steel saucepan. Designed for versatility, this pan introduces you to our revolutionary 360 Vapor&reg; Cooking technique. Cook multiple vegetables to perfection simultaneously, each retaining its unique flavor and nutrients. Enjoy healthier, more flavorful meals without adding water or oil.</p><p>Your 360 Saucepan includes:</p><p>&bull; Stainless Steel Saucepan<br>&bull; Stainless Steel Cover<br>&bull; Quick-Start Trifold (full <a href=\"/pages/use-care\">Use &amp; Care Guide</a> online)<br>&bull; Certificate of Authenticity</p>"
+   },
+   "shortDetails": null,
+   "ptabs": {
+    "value": "<!-- Product tabs -->\n\n<!-- Tab navigation -->\n<ul class=\"fd-product-tabs\">\n  \n    <li><a href=\"#ptab-product-features\">Product Features</a></li>\n  \n    <li><a href=\"#ptab-in-the-box\">In the Box</a></li>\n  \n</ul>\n\n<!-- Tab panes -->\n<div class=\"fd-product-tab-content\">\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-product-features\">\n      <ul>\r\n<li><span style=\"line-height: 1.5;\">Ergonomic Handles</span></li>\r\n<li><span style=\"line-height: 1.5;\">Oven Safe</span></li>\r\n<li><span style=\"line-height: 1.5;\">Stay Cool Handles</span></li>\r\n<li><span style=\"line-height: 1.5;\">Dishwasher Safe</span></li>\r\n<li><span style=\"line-height: 1.5;\">Induction Capable</span></li>\r\n<li><span style=\"line-height: 1.5;\">Cladded Metal</span></li>\r\n<li><span style=\"line-height: 1.5;\">.110 Gauge</span></li>\r\n<li><span style=\"line-height: 1.5;\">T-304 Surgical Grade Stainless Steel</span></li>\r\n<li>Handcrafted in the USA.</li>\r\n</ul>\n    </div>\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-in-the-box\">\n      <ul>\r\n<li>Use &amp; Care Guide&nbsp;</li>\r\n<li>Certificate of Authenticity</li>\r\n<li>Cookware &amp; Bakeware Catalog</li>\r\n<li>1 Quart Stainless SteelSaucepan with Cover</li>\r\n</ul>\n    </div>\n  \n</div>"
+   },
+   "care": {
+    "value": "{\"en\":\"<p data-pasted=\\\"true\\\">For best results and to protect your cookware, we recommend hand washing your 360 Saucepan and Cover with warm water, mild dish soap and a soft sponge or cloth. Dry thoroughly after washing.</p><p>We do not recommend dishwasher use. Harsh dishwasher detergents can damage exposed aluminum within the cookware&rsquo;s construction and may affect warranty coverage.</p><p>For stuck-on food, allow the pan to cool and soak it in warm, soapy water before cleaning. For tougher stains or discoloration, use <a href=\\\"https://www.360cookware.com/products/americraft-stainless-steel-cleaner-2-pack?srsltid=AfmBOor6kHPcr_ckQnxsA31zHpUX9HOwSkIjSJS6WmwmKD4f11f8PPnh\\\"><strong>360 Cookware Cleaner</strong></a>. A mixture of vinegar and water can also help remove blue or rainbow discoloration.</p>\",\"es\":\"\"}"
+   },
+   "faqQ": {
+    "value": "[{\"en\":\"\",\"es\":\"\"}]"
+   },
+   "faqA": {
+    "value": "[{\"en\":\"\",\"es\":\"\"}]"
+   },
+   "customTitle": {
+    "value": "1 Quart Saucepan with Cover"
+   },
+   "bf2026": {
+    "value": "20.0"
+   },
+   "rating": {
+    "value": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"4.9\"}"
+   },
+   "ratingCount": {
+    "value": "112"
+   },
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": {
+    "value": "gid://shopify/Product/4364918751321"
+   },
+   "setInclude": null,
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/1103890547",
+      "legacyResourceId": "1103890547",
+      "title": "Default Title",
+      "sku": "IL001-PC",
+      "price": "189.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": 130,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/7798215606361",
+   "legacyResourceId": "7798215606361",
+   "handle": "1-quart-saucepan-with-cover-copy",
+   "title": "1 Quart Saucepan with Cover (set)",
+   "status": "DRAFT",
+   "productType": "Saucepan",
+   "vendor": "Americraft Cookware",
+   "tags": [
+    "1 quart",
+    "1 Quart Saucepan",
+    "360 Cookware",
+    "bestseller",
+    "ChiefChoice",
+    "Cookware",
+    "CoveredSaucepan",
+    "induction",
+    "induction cookware",
+    "Induction Ready",
+    "sale",
+    "Sauce Pans-Cookware",
+    "Saucepan",
+    "stainless",
+    "Stainless Steel",
+    "Stainless Steel Cookware",
+    "starter piece",
+    "Surgical grade stainless steel",
+    "T-304 Surgical Grade Stainless Steel",
+    "vapor cooking",
+    "vapor technology",
+    "Vegetable",
+    "veggies",
+    "waterless",
+    "waterless cookware"
+   ],
+   "templateSuffix": "set-product",
+   "onlineStoreUrl": null,
+   "publishedAt": null,
+   "updatedAt": "2026-11-17T14:20:56Z",
+   "totalInventory": 365,
+   "tracksInventory": true,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<p>Versatile and user-friendly, our 1-quart stainless steel saucepan is the perfect size for all of your daily cooking needs. It also makes the perfect introduction to our 360 Vapor® Cooking technique that allows for faster, more flavorful cooking. Thanks to its unique composition, you can cook multiple types of veggies together, with each variety coming out perfectly cooked, no mushiness or mixed flavors. Experience the ease and health benefits of cooking without adding water or oil. The result? Foods bursting with flavor and packed with nutrients. Our 1-quart stainless steel saucepan is sure to become a beloved stovetop favorite whether you’re cooking for a family or for yourself, the possibilities are endless.</p>\n<p><strong><br><span style=\"text-decoration: underline;\">Product Features:</span></strong><span style=\"text-decoration: underline;\"></span><br><span>Diameter Rim to Rim: 8.07\"<br></span><span>Inside Cooking Diameter: 6.40\"<br></span><span>Inside Height: 2.5\"<br>Ergonomic Handles<br>Oven Safe Up To 500 Degrees<br>Stay Cool Long Handle<br>Induction Capable<br>Cladded Metal<br>.110 Gauge<br>T-316 Surgical Grade Stainless Steel<br>Handcrafted in the U.S.A</span><br><br><span style=\"text-decoration: underline;\"><strong>This Item Includes:</strong></span><br><a title=\"1 Quart Saucepan with cover\" href=\"https://www.360cookware.com/products/stainless-steel-1-quart-saucepan-with-cover-new-logo\">1 Quart Saucepan w/ Cover </a>, <span>Use &amp; Care Guide and Certificate of Authenticity.</span><br><br></p>\n<ul></ul>",
+   "category": {
+    "fullName": "Uncategorized"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "200.0"
+    },
+    "maxVariantPrice": {
+     "amount": "200.0"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/products/IL001-PC_1.jpg?v=1650385654",
+      "altText": "Front three-quarter view of 1 Quart Saucepan with Cover showcasing its long handle against a white background",
+      "width": 2048,
+      "height": 2048
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 4
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "overstock-sale"
+     },
+     {
+      "handle": "36-off-sale"
+     },
+     {
+      "handle": "create-the-perfect-set"
+     },
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "sauce-pans"
+     },
+     {
+      "handle": "all-cookware-and-bakeware-hm"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "google",
+      "key": "gmc_id",
+      "type": "string"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_count",
+      "type": "integer"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_rating",
+      "type": "string"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "google_product_category",
+      "type": "string"
+     },
+     {
+      "namespace": "ptabs",
+      "key": "tabs",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "main_widget_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1000",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1001",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "custom",
+      "key": "select_product_for_referenced",
+      "type": "product_reference"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "see_it_in_action",
+      "type": "metaobject_reference"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "short_details",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "essentials_description",
+      "type": "string"
+     },
+     {
+      "namespace": "shopify--discovery--product_recommendation",
+      "key": "related_products_display",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "shopify--discovery--product_recommendation",
+      "key": "related_products",
+      "type": "list.product_reference"
+     },
+     {
+      "namespace": "shopify--discovery--product_recommendation",
+      "key": "complementary_products",
+      "type": "list.product_reference"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "heading",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "sub_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "features",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "video_url",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "includes",
+      "type": "string"
+     },
+     {
+      "namespace": "CW360SetInclude",
+      "key": "setInclude_product",
+      "type": "string"
+     },
+     {
+      "namespace": "CW360SetInclude",
+      "key": "bundle_free",
+      "type": "string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "label",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product",
+      "type": "product_reference"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "video",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "video_thumbnail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "set_buy_save",
+      "key": "product_detail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "featured_video_image",
+      "type": "json_string"
+     },
+     {
+      "namespace": "custom",
+      "key": "product_title",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "whats_included",
+      "type": "string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "product_details",
+      "type": "string"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "condition",
+      "type": "string"
+     }
+    ]
+   },
+   "specTable": null,
+   "includes": {
+    "value": "<p>[object Object]</p>"
+   },
+   "shortDetails": {
+    "value": "[\"Ideal for larger portions, serves up to six and features 360 Vapor® Cookware technology for faster, flavorful, and moist cooking.\"]"
+   },
+   "ptabs": {
+    "value": "<!-- Product tabs -->\n\n<!-- Tab navigation -->\n<ul class=\"fd-product-tabs\">\n  \n    <li><a href=\"#ptab-product-features\">Product Features</a></li>\n  \n    <li><a href=\"#ptab-in-the-box\">In the Box</a></li>\n  \n</ul>\n\n<!-- Tab panes -->\n<div class=\"fd-product-tab-content\">\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-product-features\">\n      <ul>\r\n<li><span style=\"line-height: 1.5;\">Ergonomic Handles</span></li>\r\n<li><span style=\"line-height: 1.5;\">Oven Safe</span></li>\r\n<li><span style=\"line-height: 1.5;\">Stay Cool Handles</span></li>\r\n<li><span style=\"line-height: 1.5;\">Dishwasher Safe</span></li>\r\n<li><span style=\"line-height: 1.5;\">Induction Capable</span></li>\r\n<li><span style=\"line-height: 1.5;\">Cladded Metal</span></li>\r\n<li><span style=\"line-height: 1.5;\">.110 Gauge</span></li>\r\n<li><span style=\"line-height: 1.5;\">T-304 Surgical Grade Stainless Steel</span></li>\r\n<li>Handcrafted in the USA.</li>\r\n</ul>\n    </div>\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-in-the-box\">\n      <ul>\r\n<li>Use &amp; Care Guide&nbsp;</li>\r\n<li>Certificate of Authenticity</li>\r\n<li>Cookware &amp; Bakeware Catalog</li>\r\n<li>1 Quart Stainless SteelSaucepan with Cover</li>\r\n</ul>\n    </div>\n  \n</div>"
+   },
+   "care": null,
+   "faqQ": null,
+   "faqA": null,
+   "customTitle": {
+    "value": "Saucepan with Cover"
+   },
+   "bf2026": null,
+   "rating": null,
+   "ratingCount": null,
+   "related": {
+    "value": "[\"gid://shopify/Product/434401127\",\"gid://shopify/Product/4775079903321\",\"gid://shopify/Product/4427714691161\",\"gid://shopify/Product/7410102304857\",\"gid://shopify/Product/4691422642265\",\"gid://shopify/Product/343860939\",\"gid://shopify/Product/4651237015641\",\"gid://shopify/Product/343860227\"]"
+   },
+   "complementary": {
+    "value": "[]"
+   },
+   "upgradeToSet": null,
+   "setInclude": {
+    "value": "breakfast-stainless-steel-cookware-set"
+   },
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/41884239691865",
+      "legacyResourceId": "41884239691865",
+      "title": "Default Title",
+      "sku": "IL001-PC",
+      "price": "200.00",
+      "compareAtPrice": "200.00",
+      "availableForSale": true,
+      "inventoryQuantity": 365,
+      "inventoryPolicy": "DENY",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/341924395",
+   "legacyResourceId": "341924395",
+   "handle": "gift-card",
+   "title": "Gift Card",
+   "status": "ACTIVE",
+   "productType": "Gift Card",
+   "vendor": "360 Cookware",
+   "tags": [
+    "360 Cookware",
+    "birthday gift",
+    "certificate",
+    "gift",
+    "Gift Card",
+    "gift cards",
+    "gift certificate",
+    "gifts"
+   ],
+   "templateSuffix": "",
+   "onlineStoreUrl": "https://www.360cookware.com/products/gift-card",
+   "publishedAt": "2015-07-10T13:45:00Z",
+   "updatedAt": "2026-10-28T07:40:49Z",
+   "totalInventory": 0,
+   "tracksInventory": false,
+   "isGiftCard": true,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<p>Shopping for someone else but not sure what to give them? Give them the gift of choice with a 360 Cookware Gift Card.</p>\n<p>Gift cards are delivered by email and contain instructions to redeem them at checkout. Our gift cards have no additional processing fees.</p>",
+   "category": {
+    "fullName": "Gift Cards"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "$10.00",
+      "$25.00",
+      "$50.00",
+      "$100.00",
+      "$200.00",
+      "$150.00",
+      "$250.00",
+      "$ 300.00",
+      "$500.00"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "10.0"
+    },
+    "maxVariantPrice": {
+     "amount": "500.0"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/products/e38bd83af578077b65a31424bd24d085.png?v=1613222587",
+      "altText": "Red gift card with a bow, representing 360 Cookware gift cards",
+      "width": 949,
+      "height": 949
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 1
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "gift-certificate"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1000",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "main_widget_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "google_product_category",
+      "type": "string"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "set_buy_save",
+      "key": "product_detail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "label",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "video_url",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "heading",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "sub_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "short_details",
+      "type": "json_string"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_reviews",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_star_distribution",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_product_filters",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "llm_schema_html",
+      "type": "single_line_text_field"
+     }
+    ]
+   },
+   "specTable": null,
+   "includes": null,
+   "shortDetails": {
+    "value": "[\"360 Cookware Gift Cards offer culinary flexibility, delivering instant cooking inspiration via email with hassle-free redemption.\"]"
+   },
+   "ptabs": null,
+   "care": null,
+   "faqQ": null,
+   "faqA": null,
+   "customTitle": null,
+   "bf2026": null,
+   "rating": null,
+   "ratingCount": null,
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": null,
+   "setInclude": null,
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/793762943",
+      "legacyResourceId": "793762943",
+      "title": "$10.00",
+      "sku": "",
+      "price": "10.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -166,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$10.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/793762947",
+      "legacyResourceId": "793762947",
+      "title": "$25.00",
+      "sku": "",
+      "price": "25.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -16,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$25.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/793762951",
+      "legacyResourceId": "793762951",
+      "title": "$50.00",
+      "sku": "",
+      "price": "50.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -37,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$50.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/793762959",
+      "legacyResourceId": "793762959",
+      "title": "$100.00",
+      "sku": "",
+      "price": "100.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -70,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$100.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/9813012163",
+      "legacyResourceId": "9813012163",
+      "title": "$200.00",
+      "sku": "",
+      "price": "200.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -54,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$200.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41604192174169",
+      "legacyResourceId": "41604192174169",
+      "title": "$150.00",
+      "sku": "",
+      "price": "150.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -12,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$150.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/42911259000921",
+      "legacyResourceId": "42911259000921",
+      "title": "$250.00",
+      "sku": null,
+      "price": "250.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -2,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$250.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/42911329452121",
+      "legacyResourceId": "42911329452121",
+      "title": "$ 300.00",
+      "sku": null,
+      "price": "300.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$ 300.00"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/42911338201177",
+      "legacyResourceId": "42911338201177",
+      "title": "$500.00",
+      "sku": null,
+      "price": "500.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": 0,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$500.00"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/8248840323161",
+   "legacyResourceId": "8248840323161",
+   "handle": "1-quart-sauce-pan-with-cover",
+   "title": "1 Quart Saucepan with Cover",
+   "status": "ACTIVE",
+   "productType": "Cookware",
+   "vendor": "Americraft Cookware",
+   "tags": [
+    "1 Quart Saucepan",
+    "Collection_Saucepans",
+    "coming_soon",
+    "sauce pans",
+    "Sauce Pans-Cookware",
+    "Saucepans"
+   ],
+   "templateSuffix": null,
+   "onlineStoreUrl": "https://www.360cookware.com/products/1-quart-sauce-pan-with-cover",
+   "publishedAt": "2026-08-10T22:47:38Z",
+   "updatedAt": "2026-10-20T23:59:08Z",
+   "totalInventory": 0,
+   "tracksInventory": true,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<div class=\"shogun-root\">\n<div id=\"s-13d978cb-f926-4c03-9dea-2f9e661c5c5c\" class=\"shg-c\">\n<div class=\"shogun-root\">\n<div id=\"s-d0b96c1f-5f77-4862-a284-a8873838358b\" class=\"shg-c\">\n<p>Our 1 Quart Saucepan is the perfect starter piece in a stainless steel cookware set. Featuring <meta charset=\"utf-8\"><span>360 Vapor® Cooking technology that enables flavorful, nutrient-rich cooking without added water or oil.</span><br></p>\n<p>Dimensions: Rim Diameter - 8.00\" Inside Diameter -6.37\" Height - 2.62\" Weight: 1.50 lbs</p>\n</div>\n</div>\n</div>\n</div>",
+   "category": {
+    "fullName": "Home & Garden > Kitchen & Dining > Cookware & Bakeware > Cookware > Saucepans"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "199.95"
+    },
+    "maxVariantPrice": {
+     "amount": "199.95"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/files/KitchenCraft-1QuartSaucepan_1.png?v=1786456508",
+      "altText": "Front view of 1 quart saucepan with cover showcasing a matching lid and black handle on a white background",
+      "width": 1254,
+      "height": 1254
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 6
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "sauce-pans"
+     },
+     {
+      "handle": "cookware"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     },
+     {
+      "handle": "waterless"
+     },
+     {
+      "handle": "1906-legacy"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "mc-facebook",
+      "key": "google_product_category",
+      "type": "string"
+     }
+    ]
+   },
+   "specTable": null,
+   "includes": null,
+   "shortDetails": null,
+   "ptabs": null,
+   "care": null,
+   "faqQ": null,
+   "faqA": null,
+   "customTitle": null,
+   "bf2026": null,
+   "rating": null,
+   "ratingCount": null,
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": null,
+   "setInclude": null,
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/43436333203545",
+      "legacyResourceId": "43436333203545",
+      "title": "Default Title",
+      "sku": "KA001-PC",
+      "price": "199.95",
+      "compareAtPrice": null,
+      "availableForSale": false,
+      "inventoryQuantity": 0,
+      "inventoryPolicy": "DENY",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/7647739707481",
+   "legacyResourceId": "7647739707481",
+   "handle": "routeins",
+   "title": "Shipping Protection by Route",
+   "status": "DRAFT",
+   "productType": "Insurance",
+   "vendor": "Route",
+   "tags": [],
+   "templateSuffix": null,
+   "onlineStoreUrl": null,
+   "publishedAt": null,
+   "updatedAt": "2026-10-20T23:59:16Z",
+   "totalInventory": 0,
+   "tracksInventory": false,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "\n      Route provides protection for shipments that are lost, broken, or stolen.\n      Add Route to your cart at checkout to enable protection.\n      <p>Visit <a href=\"https://route.com\">route.com</a> to learn more.</p>\n    ",
+   "category": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "$0.98",
+      "$1.15",
+      "$1.35",
+      "$1.55",
+      "$1.75",
+      "$1.95",
+      "$2.15",
+      "$2.35",
+      "$2.55",
+      "$2.75",
+      "$2.95",
+      "$3.15",
+      "$3.35",
+      "$3.55",
+      "$3.75",
+      "$3.95",
+      "$4.15",
+      "$4.35",
+      "$4.55",
+      "$4.75",
+      "$4.95",
+      "$5.15",
+      "$5.35",
+      "$5.55",
+      "$5.75",
+      "$5.95",
+      "$6.15",
+      "$6.35",
+      "$6.55",
+      "$6.75",
+      "$6.95",
+      "$7.15",
+      "$7.35",
+      "$7.55",
+      "$7.75",
+      "$7.95",
+      "$8.15",
+      "$8.35",
+      "$8.55",
+      "$8.75",
+      "$8.95",
+      "$9.38",
+      "$10.03",
+      "$10.68",
+      "$11.33",
+      "$11.98",
+      "$12.63",
+      "$13.28",
+      "$13.93",
+      "$14.58",
+      "$15.23",
+      "$15.88",
+      "$16.53",
+      "$17.18",
+      "$17.83",
+      "$18.48",
+      "$19.13",
+      "$19.78",
+      "$20.43",
+      "$24.38",
+      "$31.63",
+      "$38.88",
+      "$46.13",
+      "$53.38",
+      "$60.63",
+      "$67.88",
+      "$75.13",
+      "$82.38",
+      "$89.63",
+      "$96.88",
+      "$104.13",
+      "$111.38",
+      "$118.63",
+      "$125.88",
+      "$133.13",
+      "$140.38"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "0.98"
+    },
+    "maxVariantPrice": {
+     "amount": "140.38"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/files/route-package-protection-logo-v3.png?v=1742414160",
+      "altText": "Icon indicating shipping protection by Route.",
+      "width": 2048,
+      "height": 2048
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 1
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "seo",
+      "key": "hidden",
+      "type": "integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_average",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_count",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "reviews",
+      "key": "rating_count",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "reviews",
+      "key": "rating",
+      "type": "rating"
+     }
+    ]
+   },
+   "specTable": null,
+   "includes": null,
+   "shortDetails": null,
+   "ptabs": null,
+   "care": null,
+   "faqQ": null,
+   "faqA": null,
+   "customTitle": null,
+   "bf2026": null,
+   "rating": {
+    "value": "{\"scale_min\":\"1.0\",\"scale_max\":\"5.0\",\"value\":\"4.2\"}"
+   },
+   "ratingCount": {
+    "value": "49"
+   },
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": null,
+   "setInclude": null,
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/41324749160537",
+      "legacyResourceId": "41324749160537",
+      "title": "$0.98",
+      "sku": "ROUTEINS10",
+      "price": "0.98",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1444,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$0.98"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749193305",
+      "legacyResourceId": "41324749193305",
+      "title": "$1.15",
+      "sku": "ROUTEINS11",
+      "price": "1.15",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1447,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$1.15"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749226073",
+      "legacyResourceId": "41324749226073",
+      "title": "$1.35",
+      "sku": "ROUTEINS12",
+      "price": "1.35",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1444,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$1.35"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749258841",
+      "legacyResourceId": "41324749258841",
+      "title": "$1.55",
+      "sku": "ROUTEINS13",
+      "price": "1.55",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1445,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$1.55"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749291609",
+      "legacyResourceId": "41324749291609",
+      "title": "$1.75",
+      "sku": "ROUTEINS14",
+      "price": "1.75",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1447,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$1.75"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749324377",
+      "legacyResourceId": "41324749324377",
+      "title": "$1.95",
+      "sku": "ROUTEINS15",
+      "price": "1.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -2168,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$1.95"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749357145",
+      "legacyResourceId": "41324749357145",
+      "title": "$2.15",
+      "sku": "ROUTEINS16",
+      "price": "2.15",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1448,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$2.15"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749389913",
+      "legacyResourceId": "41324749389913",
+      "title": "$2.35",
+      "sku": "ROUTEINS17",
+      "price": "2.35",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1448,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$2.35"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749422681",
+      "legacyResourceId": "41324749422681",
+      "title": "$2.55",
+      "sku": "ROUTEINS18",
+      "price": "2.55",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1444,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$2.55"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749455449",
+      "legacyResourceId": "41324749455449",
+      "title": "$2.75",
+      "sku": "ROUTEINS19",
+      "price": "2.75",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1545,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$2.75"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749488217",
+      "legacyResourceId": "41324749488217",
+      "title": "$2.95",
+      "sku": "ROUTEINS20",
+      "price": "2.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1461,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$2.95"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749520985",
+      "legacyResourceId": "41324749520985",
+      "title": "$3.15",
+      "sku": "ROUTEINS21",
+      "price": "3.15",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1472,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$3.15"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749553753",
+      "legacyResourceId": "41324749553753",
+      "title": "$3.35",
+      "sku": "ROUTEINS22",
+      "price": "3.35",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1579,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$3.35"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749586521",
+      "legacyResourceId": "41324749586521",
+      "title": "$3.55",
+      "sku": "ROUTEINS23",
+      "price": "3.55",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1580,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$3.55"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749619289",
+      "legacyResourceId": "41324749619289",
+      "title": "$3.75",
+      "sku": "ROUTEINS24",
+      "price": "3.75",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1568,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$3.75"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749652057",
+      "legacyResourceId": "41324749652057",
+      "title": "$3.95",
+      "sku": "ROUTEINS25",
+      "price": "3.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1462,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$3.95"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749684825",
+      "legacyResourceId": "41324749684825",
+      "title": "$4.15",
+      "sku": "ROUTEINS26",
+      "price": "4.15",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1568,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$4.15"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749717593",
+      "legacyResourceId": "41324749717593",
+      "title": "$4.35",
+      "sku": "ROUTEINS27",
+      "price": "4.35",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1489,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$4.35"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749750361",
+      "legacyResourceId": "41324749750361",
+      "title": "$4.55",
+      "sku": "ROUTEINS28",
+      "price": "4.55",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1674,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$4.55"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749783129",
+      "legacyResourceId": "41324749783129",
+      "title": "$4.75",
+      "sku": "ROUTEINS29",
+      "price": "4.75",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1515,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$4.75"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749815897",
+      "legacyResourceId": "41324749815897",
+      "title": "$4.95",
+      "sku": "ROUTEINS30",
+      "price": "4.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1469,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$4.95"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749848665",
+      "legacyResourceId": "41324749848665",
+      "title": "$5.15",
+      "sku": "ROUTEINS31",
+      "price": "5.15",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1623,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$5.15"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749881433",
+      "legacyResourceId": "41324749881433",
+      "title": "$5.35",
+      "sku": "ROUTEINS32",
+      "price": "5.35",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1653,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$5.35"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749914201",
+      "legacyResourceId": "41324749914201",
+      "title": "$5.55",
+      "sku": "ROUTEINS33",
+      "price": "5.55",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1606,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$5.55"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749946969",
+      "legacyResourceId": "41324749946969",
+      "title": "$5.75",
+      "sku": "ROUTEINS34",
+      "price": "5.75",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1568,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$5.75"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324749979737",
+      "legacyResourceId": "41324749979737",
+      "title": "$5.95",
+      "sku": "ROUTEINS35",
+      "price": "5.95",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1529,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$5.95"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324750012505",
+      "legacyResourceId": "41324750012505",
+      "title": "$6.15",
+      "sku": "ROUTEINS36",
+      "price": "6.15",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1602,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$6.15"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324750045273",
+      "legacyResourceId": "41324750045273",
+      "title": "$6.35",
+      "sku": "ROUTEINS37",
+      "price": "6.35",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1569,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$6.35"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324750078041",
+      "legacyResourceId": "41324750078041",
+      "title": "$6.55",
+      "sku": "ROUTEINS38",
+      "price": "6.55",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1665,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$6.55"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/ProductVariant/41324750110809",
+      "legacyResourceId": "41324750110809",
+      "title": "$6.75",
+      "sku": "ROUTEINS39",
+      "price": "6.75",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": -1508,
+      "inventoryPolicy": "CONTINUE",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "$6.75"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/10932126734",
+   "legacyResourceId": "10932126734",
+   "handle": "1-quart-cover-only",
+   "title": "1 Quart Cover Only",
+   "status": "ACTIVE",
+   "productType": "Cookware Part",
+   "vendor": "Americraft Cookware",
+   "tags": [],
+   "templateSuffix": "",
+   "onlineStoreUrl": null,
+   "publishedAt": null,
+   "updatedAt": "2026-10-20T23:59:11Z",
+   "totalInventory": 1,
+   "tracksInventory": true,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<p data-mce-fragment=\"1\">Replacement cover for our 1 Quart Sauce Pan</p>\n<p data-mce-fragment=\"1\">Outside Diameter: 7.25\"</p>",
+   "category": {
+    "fullName": "Home & Garden > Kitchen & Dining > Cookware & Bakeware > Cookware Accessories"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "40.0"
+    },
+    "maxVariantPrice": {
+     "amount": "40.0"
+    }
+   },
+   "featuredMedia": null,
+   "mediaCount": {
+    "count": 0
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "google",
+      "key": "gmc_id",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1000",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "main_widget_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "heading",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "mc-facebook",
+      "key": "google_product_category",
+      "type": "string"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "condition",
+      "type": "string"
+     }
+    ]
+   },
+   "specTable": null,
+   "includes": null,
+   "shortDetails": null,
+   "ptabs": null,
+   "care": null,
+   "faqQ": null,
+   "faqA": null,
+   "customTitle": null,
+   "bf2026": null,
+   "rating": null,
+   "ratingCount": null,
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": null,
+   "setInclude": null,
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/42849913550",
+      "legacyResourceId": "42849913550",
+      "title": "Default Title",
+      "sku": "IT001-CV",
+      "price": "40.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": 1,
+      "inventoryPolicy": "DENY",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/434529731",
+   "legacyResourceId": "434529731",
+   "handle": "stainless-steel-2-quart-saute-pan-with-cover-new-logo",
+   "title": "2 Quart Sauté Pan with Cover",
+   "status": "DRAFT",
+   "productType": "360 Cookware",
+   "vendor": "360 Cookware",
+   "tags": [
+    "2 quart saute pan",
+    "2 Quart Sauté",
+    "360 Cookware",
+    "Black Bean Cakes",
+    "cook vegtables",
+    "in_house_discount_code_items",
+    "Measure_2qt",
+    "medium saute",
+    "medium saute pan",
+    "saute",
+    "Saute Pans-Cookware",
+    "saute veggies",
+    "Size_Medium",
+    "stainless",
+    "Stainless Steel",
+    "Stainless Steel Cookware",
+    "Surgical grade stainless steel",
+    "T-304 Surgical Grade Stainless Steel",
+    "vapor cooking",
+    "vapor technology",
+    "veggies",
+    "Vegtables",
+    "waterless",
+    "waterless cookware"
+   ],
+   "templateSuffix": "",
+   "onlineStoreUrl": null,
+   "publishedAt": null,
+   "updatedAt": "2026-10-20T23:59:07Z",
+   "totalInventory": 1,
+   "tracksInventory": true,
+   "isGiftCard": false,
+   "requiresSellingPlan": false,
+   "descriptionHtml": "<p>The 2 Quart Stainless Steel Sauté Pan is ready to take on all 3 meals a day and snacks too. Cook eggs, hash browns and sausage links at the same time without merging flavors. Whip up a quick quiche for lunch. For dinner, how about a delectable seafood stew? And finally for dessert, what could be better than a delightful stovetop cobbler?</p>\n<p style=\"text-align: left;\"><span style=\"text-decoration: underline;\"> <strong>Product Features:</strong>﻿﻿</span><br><span>Diameter = 7 3/4\" ~ Ergonomic Handles ~ Oven Safe ~ Stay Cool Long Handle ~ Induction Capable ~ Cladded Metal ~ .110 Gauge ~ T-304 Surgical Grade Stainless Steel ~ 18/10 Stainless Steel ~ Handcrafted in the USA. </span><br><br><span style=\"text-decoration: underline;\"><strong>This Item Includes:</strong></span><br><a href=\"https://www.360cookware.com/products/stainless-steel-2-quart-saute-pan-with-cover-new-logo\" title=\"2 Quart Sauté Pan with Cover\">2 Quart Sauté Pan w/ Cover</a><span> </span><span>~ Use &amp; Care Guide ~ Certificate of Authenticity ~ Cookware &amp; Bakeware Catalog </span></p>",
+   "category": {
+    "fullName": "Uncategorized"
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "priceRangeV2": {
+    "minVariantPrice": {
+     "amount": "189.0"
+    },
+    "maxVariantPrice": {
+     "amount": "189.0"
+    }
+   },
+   "featuredMedia": {
+    "preview": {
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0622/1937/products/IL085-PC_1.jpg?v=1613222626",
+      "altText": "2 Quart Sauté Pan with Cover - 360 Cookware",
+      "width": 2048,
+      "height": 2048
+     }
+    }
+   },
+   "mediaCount": {
+    "count": 2
+   },
+   "collections": {
+    "nodes": [
+     {
+      "handle": "saute-pans"
+     },
+     {
+      "handle": "36-off-sale"
+     },
+     {
+      "handle": "create-the-perfect-set"
+     },
+     {
+      "handle": "all"
+     },
+     {
+      "handle": "all-cookware-and-bakeware-hm"
+     },
+     {
+      "handle": "all-1"
+     },
+     {
+      "handle": "easygift-all-products"
+     }
+    ]
+   },
+   "mfIndex": {
+    "nodes": [
+     {
+      "namespace": "ptabs",
+      "key": "tabs",
+      "type": "string"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_count",
+      "type": "integer"
+     },
+     {
+      "namespace": "kudobuzz",
+      "key": "review_rating",
+      "type": "string"
+     },
+     {
+      "namespace": "google",
+      "key": "gmc_id",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "richsnippetshtml",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_count",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "reviews_average",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1000",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "main_widget_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "catalog_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "qa_bottomline_update_time",
+      "type": "number_integer"
+     },
+     {
+      "namespace": "yotpo_reviews",
+      "key": "1001",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "ingredients",
+      "type": "string"
+     },
+     {
+      "namespace": "set_buy_save",
+      "key": "product_detail",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "video_url",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "product_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "buy_set_save",
+      "key": "label",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_video",
+      "key": "sub_title",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "heading",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_pro_videos",
+      "key": "description",
+      "type": "json_string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "includes",
+      "type": "string"
+     },
+     {
+      "namespace": "accentuate",
+      "key": "short_details",
+      "type": "json_string"
+     },
+     {
+      "namespace": "custom",
+      "key": "product_title",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "answer",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_featured_icon",
+      "key": "text",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "question",
+      "type": "json_string"
+     },
+     {
+      "namespace": "CW360_faq",
+      "key": "care__product_guides",
+      "type": "json_string"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "condition",
+      "type": "string"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_bottomline",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_reviews",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_star_distribution",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "preloaded_product_filters",
+      "type": "single_line_text_field"
+     },
+     {
+      "namespace": "yotpo",
+      "key": "llm_schema_html",
+      "type": "single_line_text_field"
+     }
+    ]
+   },
+   "specTable": {
+    "value": "<table style=\"width: 100%;\"><tbody><tr><td style=\"width: 50.0000%;\">Diameter:&nbsp;<br></td><td style=\"width: 50.0000%;\">7 3/4\"<br></td></tr><tr><td style=\"width: 50.0000%;\">Gauge:&nbsp;<br></td><td style=\"width: 50.0000%;\">.110<br></td></tr><tr><td style=\"width: 50.0000%;\">Material:&nbsp;<br></td><td style=\"width: 50.0000%;\">T-304 Surgical Grade Stainless Steel (18/10)<br></td></tr><tr><td style=\"width: 50.0000%;\">Oven Safe:&nbsp;<br></td><td style=\"width: 50.0000%;\">Yes (temperature not specified)<br></td></tr><tr><td style=\"width: 50.0000%;\">Handle:&nbsp;<br></td><td style=\"width: 50.0000%;\">Stay Cool Long Handle<br></td></tr><tr><td style=\"width: 50.0000%;\">Cooktop Compatibility:&nbsp;<br></td><td style=\"width: 50.0000%;\">All, including induction<br></td></tr><tr><td style=\"width: 50.0000%;\">Manufacturing:&nbsp;<br></td><td style=\"width: 50.0000%;\">Handcrafted in the USA<br></td></tr></tbody></table>"
+   },
+   "includes": {
+    "value": "<p id=\"isPasted\">Experience culinary versatility with our 2 Quart Stainless Steel Saut&eacute; Pan. This all-day wonder tackles breakfast, lunch, dinner, and even dessert with ease. Cook multiple items simultaneously without flavor transfer, perfect for everything from morning eggs to evening seafood stews. The ergonomic stay-cool handle ensures comfort during use, while the superior heat distribution of our cladded metal construction guarantees perfect results every time.</p><p>What&#39;s Included:</p><p>2 Quart Saut&eacute; Pan with Cover</p><p>Use &amp; Care Guide</p><p>Certificate of Authenticity</p>"
+   },
+   "shortDetails": {
+    "value": "[\"Our 2-quart stainless steel sauté pan features 360 Vapor® Cooking Technology for quick, flavorful family meals, retaining moisture and tenderness while cooking with less time and heat.\"]"
+   },
+   "ptabs": {
+    "value": "<!-- Product tabs -->\n\n<!-- Tab navigation -->\n<ul class=\"fd-product-tabs\">\n  \n    <li><a href=\"#ptab-product-features\">Product Features</a></li>\n  \n    <li><a href=\"#ptab-in-the-box\">In the Box</a></li>\n  \n</ul>\n\n<!-- Tab panes -->\n<div class=\"fd-product-tab-content\">\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-product-features\">\n      <ul>\r\n<li><span style=\"line-height: 1.5;\">Ergonomic Handles</span></li>\r\n<li><span style=\"line-height: 1.5;\">Oven Safe</span></li>\r\n<li><span style=\"line-height: 1.5;\">Stay Cool Handles</span></li>\r\n<li><span style=\"line-height: 1.5;\">Dishwasher Safe</span></li>\r\n<li><span style=\"line-height: 1.5;\">Induction Capable</span></li>\r\n<li><span style=\"line-height: 1.5;\">Cladded Metal</span></li>\r\n<li><span style=\"line-height: 1.5;\">.110 Gauge</span></li>\r\n<li><span style=\"line-height: 1.5;\">T-304 Surgical Grade Stainless Steel</span></li>\r\n<li>Handcrafted in the USA.</li>\r\n</ul>\n    </div>\n  \n    <div class=\"fd-product-tab-pane\" id=\"ptab-in-the-box\">\n      <ul>\r\n<li>Use &amp; Care Guide&nbsp;</li>\r\n<li>Certificate of Authenticity</li>\r\n<li>Cookware &amp; Bakeware Catalog</li>\r\n<li>2 Quart Stainless Steel Saut&eacute; Pan with Cover</li>\r\n</ul>\n    </div>\n  \n</div>"
+   },
+   "care": {
+    "value": "{\"en\":\"<p>For optimal performance and longevity, hand-wash your saut&eacute; pan with warm, soapy water and dry immediately. While dishwasher-safe, hand-washing will maintain the pan&#39;s superior finish and cooking properties, ensuring years of delicious, versatile meals.</p>\",\"es\":\"\"}"
+   },
+   "faqQ": {
+    "value": "[{\"en\":\"\",\"es\":\"\"}]"
+   },
+   "faqA": {
+    "value": "[{\"en\":\"\",\"es\":\"\"}]"
+   },
+   "customTitle": {
+    "value": "2 Quart Sauté Pan with Cover"
+   },
+   "bf2026": null,
+   "rating": null,
+   "ratingCount": null,
+   "related": null,
+   "complementary": null,
+   "upgradeToSet": null,
+   "setInclude": null,
+   "bundleSet": null,
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/1104211955",
+      "legacyResourceId": "1104211955",
+      "title": "Default Title",
+      "sku": "IL085-PC",
+      "price": "189.00",
+      "compareAtPrice": null,
+      "availableForSale": true,
+      "inventoryQuantity": 1,
+      "inventoryPolicy": "DENY",
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "articles": [
+  {
+   "id": "gid://shopify/Article/26544963",
+   "title": "Vegan Stovetop Lasagna",
+   "handle": "26544963-vegan-stovetop-lasagna",
+   "publishedAt": "2016-01-11T15:58:00Z",
+   "isPublished": true,
+   "tags": [
+    "entertaining and parties",
+    "Entreés",
+    "Everyday Meals",
+    "healthy cooking",
+    "holidays and events",
+    "low fat",
+    "Parties & Entertaining",
+    "Slow Cooking",
+    "vegan",
+    "Vegetarian Dishes"
+   ],
+   "templateSuffix": "",
+   "image": null,
+   "summary": "<br>\n<p> </p>",
+   "body": "<div class=\"easyrecipe\" itemscope=\"\" itemtype=\"http://schema.org/Recipe\">\n<div class=\"endeasyrecipe\" title=\"style002\" style=\"display: none;\">3.2.2310</div>\n</div>\n<br>   <img src=\"http://track.hubspot.com/__ptq.gif?a=192230&amp;k=14&amp;bu=http%3A%2F%2Fblog.360cookware.com&amp;r=http%3A%2F%2Fblog.360cookware.com%2F2013%2F08%2F14%2Fvegan-stovetop-lasagna%2F&amp;bvt=rss&amp;p=wordpress\" style=\"float: left;\" width=\"1\" height=\"1\" border=\"0\" align=\"right\" xml:base=\"http://blog.360cookware.com/feed/\">",
+   "author": {
+    "name": "Brittany Pitschman"
+   },
+   "rk": {
+    "nodes": [
+     {
+      "key": "26544963",
+      "type": "json_string",
+      "value": "{\"recipe_title\":\"Vegan Stovetop Lasagna\",\"recipe_author\":\"<p>360 Cookware<br></p>\",\"recipe_description\":\"<p><strong>Cookware Items Used In This Recipe:</strong></p><ul><li><a href=\\\"https://www.360cookware.com/collections/sauce-pans/products/stainless-steel-2-3-quart-casserole-with-cover\\\" target=\\\"_blank\\\">2.3 Quart with Cover</a></li><li><a href=\\\"https://www.360cookware.com/collections/saute-pans/products/stainless-steel-3-5-quart-saute-pan-with-cover?variant=799044747\\\" target=\\\"_blank\\\">3.5 Quart Sauté Pan with Cover</a></li><li><a href=\\\"https://www.360cookware.com/products/slow-cooker-base\\\" target=\\\"_blank\\\">Slow Cooker Base</a></li></ul><p><br></p><p>A vegan/vegetarian option for one of our most popular dishes!</p>\",\"recipe_category\":\"Entreés\",\"recipe_cuisine\":null,\"recipe_ingredients\":[{\"ingredient\":\"<p>1 pound Portabella Mushroom, chopped</p>\",\"selected_product\":null},{\"ingredient\":\"<p>2 tablespoons Olive oil</p>\"},{\"ingredient\":\"<p>1 package No-Boil Lasagna Noodles</p>\"},{\"ingredient\":\"<p>1 jar Marinara Sauce, 26oz (about 3½ cups)</p>\"},{\"ingredient\":\"<p>8 ounces Vegan Mozzarella Cheese, shredded</p>\"},{\"ingredient\":\"<p>1 cup Vegan Cream Cheese</p>\"},{\"ingredient\":\"<p>2 tablespoons Herb de Provence</p>\"},{\"ingredient\":\"<p>Salt and pepper to taste</p>\"}],\"recipe_directions\":[{\"direction\":\"<p>Preheat a <a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/collections/saute-pans/products/stainless-steel-3-5-quart-saute-pan-with-cover?variant=799044747\\\">3.5 Quart Saute Pan</a> over medium heat.</p>\"},{\"direction\":\"<p>Add olive oil.</p>\"},{\"direction\":\"<p>When oil is hot, add chopped portabella mushrooms and season with salt and pepper.</p>\"},{\"direction\":\"<p>Stirring occasionally, saute until the mushrooms are lightly brown, about 10 -12 minutes.</p>\"},{\"direction\":\"<p>Add minced garlic and saute just until the garlic is soft and aromatic, about 1 min.</p>\"},{\"direction\":\"<p>Remove from the heat and cool.</p>\"},{\"direction\":\"<p>Spray a light coating of cooking spray in the <a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/collections/sauce-pans/products/stainless-steel-2-3-quart-casserole-with-cover\\\">2.3 Quart Casserole</a>.</p>\"},{\"direction\":\"<p>Begin layering your lasagna by ladling ½ cup of the sauce into the bottom of the casserole and spread evenly.</p>\"},{\"direction\":\"<p>Use 2 of the lasagna noodles to make a layer and cover the sauce. (One \\nnoodle will need to be broken to fill smaller areas. Don't worry about \\nbeing perfect, the noodles expand).</p>\"},{\"direction\":\"<p>Continue to build layers by spreading another ½ cup of sauce evenly over the noodles.</p>\"},{\"direction\":\"<p>Sprinkle ⅓ of the shredded vegan mozzarella over the sauce.</p>\"},{\"direction\":\"<p>Then using a spoon, place ⅓ of the vegan cream cheese in small dollops on the shredded cheese.</p>\"},{\"direction\":\"<p>Use 2 more noodles to create another layer.</p>\"},{\"direction\":\"<p>Spread another ½ cup of the sauce evenly over the layer of noodles and then spread ½ the mushroom mixture over the sauce.</p>\"},{\"direction\":\"<p>Add another layer of 2 noodles.</p>\"},{\"direction\":\"<p>Repeat with another ½ cup of sauce and the second ⅓ of the shredded and \\ncream cheeses, another layer of noodles and then another ½ cup of sauce \\nand the last ½ of the mushrooms.</p>\"},{\"direction\":\"<p>Top with another layer of noodles and another ½ cup of sauce.</p>\"},{\"direction\":\"<p>Reserve the last ⅓ of the cheeses and the last ½ cup of sauce for later.</p>\"},{\"direction\":\"<p>Place the casserole on the stove at medium heat.</p>\"},{\"direction\":\"<p>When you see vapor escape from the side of the lid (approximately 5 \\nminutes), spin the lid to set the vapor seal and turn the heat to low.</p>\"},{\"direction\":\"<p>Cook on low for 45 minutes.</p>\"},{\"direction\":\"<p>Remove the lid, spread the last of the sauce and cheeses on top of the \\nlasagna, replace the cover and cook for a further 10 minutes to melt the\\n cheese.</p>\"},{\"direction\":\"<p>Remove from the heat, let stand for 5 - 10 minutes and serve.</p>\"}],\"serving_size\":\"6\",\"prep_time\":\"30 minutes\",\"cook_time\":\"60 minutes\",\"recipe_image\":\"https://f000.backblazeb2.com/file/recipekit-bucket/v1602733446_SkiletLasagna_gml4ww.jpg\",\"recipe_image_alt_text\":\"Vegan Stovetop Lasagna\",\"iso_prep_time\":\"PT30M\",\"iso_cook_time\":\"PT1H\",\"iso_total_time\":\"PT1H30M\",\"recipe_rating\":\"3.6666666666666667\",\"enable_rating\":true,\"rating_count\":\"3\",\"recipe_note\":\"<p>Tip: Alternatively, the lasagna may be cooked on the Slow-Cooker Base. \\nOnce assembled, cook the lasagna on Setting #2 for 2 hours. As with the \\nprevious method, place the last of the sauce and cheeses on and cook for\\n an additional 10 minutes before serving.</p>\",\"recipe_video\":null,\"recipe_date\":\"2020-10-15T03:40:37.197+00:00\",\"recipe_calories\":null,\"recipe_tags\":[],\"nutrition_data\":[],\"recipe_id\":\"89147\",\"nutrition_serving_size\":null,\"nutrition_template\":\"linear\",\"custom_fields\":[{\"name\":\"\",\"value\":\"\"},{\"name\":\"\",\"value\":\"\"}]}"
+     }
+    ]
+   },
+   "featured": null,
+   "timing": null,
+   "level": null
+  },
+  {
+   "id": "gid://shopify/Article/82012483",
+   "title": "Spicy Black Bean Cakes",
+   "handle": "82012483-spicy-black-bean-cakes",
+   "publishedAt": "2015-12-16T01:28:00Z",
+   "isPublished": true,
+   "tags": [
+    "2 Quart Sauté Pan",
+    "Appetizers",
+    "Black Bean Cakes",
+    "Black Beans",
+    "Breakfast & Lunch",
+    "Burger",
+    "Recipe",
+    "vegan",
+    "vegetarian"
+   ],
+   "templateSuffix": "",
+   "image": null,
+   "summary": "",
+   "body": "",
+   "author": {
+    "name": "Brittany Pitschman"
+   },
+   "rk": {
+    "nodes": [
+     {
+      "key": "82012483",
+      "type": "json_string",
+      "value": "{\"recipe_title\":\"Spicy Black Bean Cakes\",\"recipe_author\":null,\"recipe_description\":\"<p><strong>Cookware Items Used For This Recipe:</strong></p><ul><li><a href=\\\"https://www.360cookware.com/products/stainless-steel-3-5-quart-saute-pan-with-cover\\\">3.5 Quart Sauté Pan and Cover</a></li><li><a href=\\\"https://www.360cookware.com/products/stainless-steel-cookie-sheet-large\\\">Large Cookie Sheet</a></li></ul>\",\"recipe_category\":\"Appetizers\",\"recipe_cuisine\":null,\"recipe_ingredients\":[{\"type\":\"heading\",\"ingredient\":\"blank\",\"heading_text\":\"Lime Sour Cream Ingredients:\"},{\"ingredient\":\"<p>﻿1/2 cup Reduced Fat Sour Cream</p>\",\"selected_product\":null},{\"ingredient\":\"<p>2 tsp Fresh Lime Juice</p>\"},{\"ingredient\":\"<p>1 small&nbsp;Jalapeño&nbsp;Pepper, minced&nbsp;</p>\"},{\"ingredient\":\"<p>Salt to taste</p>\"},{\"type\":\"heading\",\"ingredient\":\"blank\",\"heading_text\":\"Black Bean Cakes Ingredients:\"},{\"ingredient\":\"<p>2 tbsp Olive Oil, divided</p>\"},{\"ingredient\":\"<p>4 Green Onions, thinly sliced</p>\"},{\"ingredient\":\"<p>6 Garlic Cloves, pressed</p>\"},{\"ingredient\":\"<p>2 fresh Jalapeño Peppers, finely diced</p>\"},{\"ingredient\":\"<p>1 tbsp Ground Cumin</p>\"},{\"ingredient\":\"<p>2 - 14.5oz cans Black Beans, drained and rinsed</p>\"},{\"ingredient\":\"<p>Salt, to taste</p>\"},{\"ingredient\":\"<p>Black Pepper, to taste</p>\"},{\"ingredient\":\"<p>2 cups grated raw Sweet Potato</p>\"},{\"ingredient\":\"<p>1 Egg, lightly beaten</p>\"},{\"ingredient\":\"<p>1/2 cup Plain Dried Bread Crumbs</p>\"}],\"recipe_directions\":[{\"id\":1742572660600.8945,\"type\":\"heading\",\"direction\":\"blank\",\"heading_text\":\"Instructions for the Lime Sour Cream:\"},{\"id\":1742572660600.2947,\"direction\":\"<p>﻿Mix together sour cream, lime juice, 1 small minced jalapeño and salt in a small bowl. Refrigerate until ready to serve. Serve with Black Bean Cakes.</p>\"},{\"id\":1742572660600.1345,\"type\":\"heading\",\"direction\":\"blank\",\"heading_text\":\"Instructions for the Black Bean Cakes:\"},{\"id\":1742572660600.5989,\"direction\":\"<p>Preheat&nbsp;<a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/products/stainless-steel-3-5-quart-saute-pan-with-cover\\\">3.5 Quart Sauté Pan</a>&nbsp;over medium heat. Heat 1 tablespoon olive oil and add green onions until softened, about 1 minute. Stir in garlic, 2 diced jalapeños , and cumin. Cook until fragrant, about 30 seconds.</p>\"},{\"id\":1742572660600.228,\"direction\":\"<p>Transfer contents of pan to large bowl. Stir in black beans and mash with a fork. Season with salt and pepper to taste. Mix in sweet potatoes, egg, and bread crumbs. Shape into 8 patties.&nbsp;</p>\"},{\"id\":1742572660600.8325,\"direction\":\"<p>Set the cooking rack in the oven about 4 inches from heat source. Set oven to broil. Lightly grease the <a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/products/stainless-steel-cookie-sheet-large\\\">Large Cookie Sheet</a> with 1 tablespoon oil.&nbsp;</p>\"},{\"id\":1742572660600.3784,\"direction\":\"<p>Place bean patties on <a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/products/stainless-steel-cookie-sheet-large\\\">Large Cookie Sheet</a> and broil 8 to 10 minutes. Turn cakes over, and broil until crispy, about 3 minutes more. Serve with Lime Sour Cream.&nbsp;</p>\"},{\"id\":1742572660600.2532,\"direction\":\"<p>Enjoy!</p>\"}],\"serving_size\":null,\"prep_time\":null,\"cook_time\":null,\"recipe_image\":\"https://f000.backblazeb2.com/file/recipekit-bucket/v1602018951_Spicy-black-bean-cakes-_aneyic.jpg\",\"recipe_image_alt_text\":\"Spicy Black Bean Cakes\",\"iso_prep_time\":null,\"iso_cook_time\":null,\"recipe_rating\":\"3.5000000000000000\",\"enable_rating\":true,\"rating_count\":\"4\",\"recipe_note\":null,\"recipe_video\":null,\"recipe_date\":\"2020-10-06T21:14:32.087+00:00\",\"recipe_calories\":null,\"recipe_tags\":[{\"name\":\"Spicy Black Bean Cakes\"},{\"name\":\"Spicy Black Bean\"},{\"name\":\"Black Bean Cakes\"},{\"name\":\"Black Beans\"},{\"name\":\"2 Quart Saute Pan\"},{\"name\":\"Appetizers\"},{\"name\":\"Vegan\"},{\"name\":\"vegetarian\"},{\"name\":\"Large Cookie Sheet\"}],\"nutrition_data\":[],\"recipe_id\":\"71547\",\"nutrition_serving_size\":null,\"nutrition_template\":\"linear\",\"custom_fields\":[{\"name\":\"\",\"value\":\"\"},{\"name\":\"\",\"value\":\"\"}]}"
+     },
+     {
+      "key": "recipe_data",
+      "type": "json",
+      "value": "{\"recipe_title\":\"Spicy Black Bean Cakes\",\"recipe_author\":null,\"recipe_description\":\"<p><strong>Cookware Items Used For This Recipe:</strong></p><ul><li><a href=\\\"https://www.360cookware.com/products/stainless-steel-3-5-quart-saute-pan-with-cover\\\">3.5 Quart Sauté Pan and Cover</a></li><li><a href=\\\"https://www.360cookware.com/products/stainless-steel-cookie-sheet-large\\\">Large Cookie Sheet</a></li></ul>\",\"recipe_category\":\"Appetizers\",\"recipe_cuisine\":null,\"recipe_ingredients\":[{\"type\":\"heading\",\"heading_text\":\"Lime Sour Cream Ingredients:\",\"ingredient\":\"blank\"},{\"ingredient\":\"<p>﻿1/2 cup Reduced Fat Sour Cream</p>\",\"selected_product\":null},{\"ingredient\":\"<p>2 tsp Fresh Lime Juice</p>\"},{\"ingredient\":\"<p>1 small&nbsp;Jalapeño&nbsp;Pepper, minced&nbsp;</p>\"},{\"ingredient\":\"<p>Salt to taste</p>\"},{\"type\":\"heading\",\"heading_text\":\"Black Bean Cakes Ingredients:\",\"ingredient\":\"blank\"},{\"ingredient\":\"<p>2 tbsp Olive Oil, divided</p>\"},{\"ingredient\":\"<p>4 Green Onions, thinly sliced</p>\"},{\"ingredient\":\"<p>6 Garlic Cloves, pressed</p>\"},{\"ingredient\":\"<p>2 fresh Jalapeño Peppers, finely diced</p>\"},{\"ingredient\":\"<p>1 tbsp Ground Cumin</p>\"},{\"ingredient\":\"<p>2 - 14.5oz cans Black Beans, drained and rinsed</p>\"},{\"ingredient\":\"<p>Salt, to taste</p>\"},{\"ingredient\":\"<p>Black Pepper, to taste</p>\"},{\"ingredient\":\"<p>2 cups grated raw Sweet Potato</p>\"},{\"ingredient\":\"<p>1 Egg, lightly beaten</p>\"},{\"ingredient\":\"<p>1/2 cup Plain Dried Bread Crumbs</p>\"}],\"recipe_directions\":[{\"type\":\"heading\",\"heading_text\":\"Instructions for the Lime Sour Cream:\",\"direction\":\"blank\",\"id\":1742572660600.8945},{\"direction\":\"<p>﻿Mix together sour cream, lime juice, 1 small minced jalapeño and salt in a small bowl. Refrigerate until ready to serve. Serve with Black Bean Cakes.</p>\",\"id\":1742572660600.2947},{\"type\":\"heading\",\"heading_text\":\"Instructions for the Black Bean Cakes:\",\"direction\":\"blank\",\"id\":1742572660600.1345},{\"direction\":\"<p>Preheat&nbsp;<a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/products/stainless-steel-3-5-quart-saute-pan-with-cover\\\">3.5 Quart Sauté Pan</a>&nbsp;over medium heat. Heat 1 tablespoon olive oil and add green onions until softened, about 1 minute. Stir in garlic, 2 diced jalapeños , and cumin. Cook until fragrant, about 30 seconds.</p>\",\"id\":1742572660600.5989},{\"direction\":\"<p>Transfer contents of pan to large bowl. Stir in black beans and mash with a fork. Season with salt and pepper to taste. Mix in sweet potatoes, egg, and bread crumbs. Shape into 8 patties.&nbsp;</p>\",\"id\":1742572660600.228},{\"direction\":\"<p>Set the cooking rack in the oven about 4 inches from heat source. Set oven to broil. Lightly grease the <a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/products/stainless-steel-cookie-sheet-large\\\">Large Cookie Sheet</a> with 1 tablespoon oil.&nbsp;</p>\",\"id\":1742572660600.8325},{\"direction\":\"<p>Place bean patties on <a target=\\\"_blank\\\" rel=\\\"\\\" href=\\\"https://www.360cookware.com/products/stainless-steel-cookie-sheet-large\\\">Large Cookie Sheet</a> and broil 8 to 10 minutes. Turn cakes over, and broil until crispy, about 3 minutes more. Serve with Lime Sour Cream.&nbsp;</p>\",\"id\":1742572660600.3784},{\"direction\":\"<p>Enjoy!</p>\",\"id\":1742572660600.2532}],\"serving_size\":null,\"prep_time\":null,\"cook_time\":null,\"recipe_image\":\"https://f000.backblazeb2.com/file/recipekit-bucket/v1602018951_Spicy-black-bean-cakes-_aneyic.jpg\",\"recipe_image_alt_text\":\"Spicy Black Bean Cakes\",\"recipe_rating\":\"4.5000000000000000\",\"enable_rating\":true,\"rating_count\":\"2\",\"recipe_note\":null,\"recipe_video\":null,\"recipe_date\":\"2020-10-06T21:14:32.087+00:00\",\"recipe_calories\":null,\"recipe_tags\":[{\"name\":\"Spicy Black Bean Cakes\"},{\"name\":\"Spicy Black Bean\"},{\"name\":\"Black Bean Cakes\"},{\"name\":\"Black Beans\"},{\"name\":\"2 Quart Saute Pan\"},{\"name\":\"Appetizers\"},{\"name\":\"Vegan\"},{\"name\":\"vegetarian\"},{\"name\":\"Large Cookie Sheet\"}],\"nutrition_data\":[],\"nutrition_template\":\"linear\",\"nutrition_serving_size\":null,\"custom_fields\":[{\"name\":\"\",\"value\":\"\"},{\"name\":\"\",\"value\":\"\"}],\"recipe_id\":\"71547\"}"
+     }
+    ]
+   },
+   "featured": null,
+   "timing": null,
+   "level": null
+  },
+  {
+   "id": "gid://shopify/Article/19023855",
+   "title": "360 Fried Eggs",
+   "handle": "19023855-360-fried-eggs",
+   "publishedAt": null,
+   "isPublished": false,
+   "tags": [
+    "Breakfast & Lunch"
+   ],
+   "templateSuffix": null,
+   "image": null,
+   "summary": "",
+   "body": "<p>Serves: 1 people<br>Prep Time: 5 minutes<br>Cooking Time: 4 minutes<br>Calories:143 calories</p>\n<p><br><strong>Ingredients:</strong></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">2 large eggs</span></li>\n<li><span style=\"line-height: 1.4;\">Non-stick cooking spray</span></li>\n<li><span style=\"line-height: 1.4;\">Salt and freshly ground pepper</span></li>\n</ul>\n<p><br><strong>Instructions:</strong></p>\n<ol>\n<li><span style=\"line-height: 1.4;\">Crack the eggs into a small bowl.</span></li>\n<li><span style=\"line-height: 1.4;\">Heat the <a href=\"http://www.360cookware.com/collections/fry-pans/products/stainless-steel-11-5-inch-fry-pan\">11.5” Fry</a> Pan over medium heat for 3 minutes.</span></li>\n<li><span style=\"line-height: 1.4;\">Lightly spray the pan with cooking spray </span></li>\n<li><span style=\"line-height: 1.4;\">Gently crack the egg and empty into the pan. Season with salt and pepper to taste.</span></li>\n<li><span style=\"line-height: 1.4;\">Cook until the whites are set and the yolks are cooked through as desired.</span></li>\n<li><span style=\"line-height: 1.4;\">Gently flip the eggs using a spatula and continue cooking until the eggs have reached your desired level of doneness.</span></li>\n</ol>",
+   "author": {
+    "name": "Brittany Pitschman"
+   },
+   "rk": {
+    "nodes": []
+   },
+   "featured": null,
+   "timing": null,
+   "level": null
+  }
+ ]
+}

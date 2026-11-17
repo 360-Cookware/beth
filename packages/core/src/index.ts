@@ -12,3 +12,5 @@ export * from './recipes/recipe-quality-report.js';
 export * from './search/bm25.js';
 export * from './search/product-search.js';
 export * from './search/recipe-search.js';
+export * from './shopify/admin-queries.js';
+export * from './shopify/admin-mapping.js';
