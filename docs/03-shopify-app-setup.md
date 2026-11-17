@@ -11,7 +11,7 @@ _Last updated: 2026-11-17_
 
 | Item | Value | Effect on the store |
 |---|---|---|
-| Access scopes | `read_products`, `read_inventory`, `read_content`, `read_online_store_pages`, `read_legal_policies` | Read only. Beth cannot change products, prices, orders or content. |
+| Access scopes | `read_products`, `read_inventory`, `read_content`, `read_online_store_pages`, `read_legal_policies`, `write_app_proxy` | Read only for store data. `write_app_proxy` is required by Shopify for every app with an app proxy (it covers only the `/apps/beth` proxy route). Beth cannot change products, prices, orders or content. |
 | Webhooks | `app/uninstalled`, `app/scopes_update`, `products/create`, `products/update`, `products/delete`, `inventory_levels/update`, the 3 privacy compliance topics | Shopify notifies Beth. Nothing changes in the store. |
 | Events | `Article` create, update, delete (Recipes blog) | Same as above |
 | App proxy | `https://www.360cookware.com/apps/beth/*` → `https://beth-api.360cookware.com/proxy/*` | A new URL path on the storefront. Shopify signs every request. |
@@ -76,7 +76,7 @@ Nothing in this part changes the store: the app is not installed yet.
 
    ```powershell
    npm install
-   npm run deploy:shopify
+   npm run deploy:shopify      # from the repo root (or `shopify app deploy` inside apps/beth-app)
    ```
 
    The CLI opens the browser to log in, shows the changes (scopes, webhooks, events, app proxy and
@@ -102,7 +102,7 @@ Nothing in this part changes the store: the app is not installed yet.
      | `SHOPIFY_API_KEY` | Client ID |
      | `SHOPIFY_API_SECRET` | Client secret (Dev Dashboard → Beth → Settings) |
      | `SHOPIFY_APP_URL` | `https://beth-api.360cookware.com` |
-     | `SCOPES` | `read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies` |
+     | `SCOPES` | `read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies,write_app_proxy` |
      | `DATABASE_URL` | Render Postgres internal connection string |
 
    - DNS: `CNAME beth-api.360cookware.com` → the Render service host. If you choose another host

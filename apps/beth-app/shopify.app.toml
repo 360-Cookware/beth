@@ -8,14 +8,13 @@
 # beth-api.360cookware.com is the planned API host (blocker B3). It has no DNS record yet,
 # so nothing is sent anywhere until hosting exists and the app is installed.
 
-client_id = ""
+client_id = "7652d09d6d75e9918d3a107d79d874ff"
 name = "Beth"
 application_url = "https://beth-api.360cookware.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
-include_config_on_deploy = true
 
 [access_scopes]
 # Read-only, least privilege:
@@ -24,8 +23,10 @@ include_config_on_deploy = true
 #   read_content             Recipes blog articles and Recipe Kit metafields
 #   read_online_store_pages  care and warranty pages
 #   read_legal_policies      refund and shipping policies
+#   write_app_proxy          required by Shopify for any app with an app proxy (manages only
+#                            the /apps/beth proxy route, no store data)
 # read_orders is added in the analytics phase (order attribution), with its own approval.
-scopes = "read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies"
+scopes = "read_products,read_inventory,read_content,read_online_store_pages,read_legal_policies,write_app_proxy"
 
 [auth]
 redirect_urls = [ "https://beth-api.360cookware.com/auth/callback" ]
