@@ -11,6 +11,7 @@ export default tseslint.config(
       'apps/beth-app/build/**',
       'apps/beth-app/.react-router/**',
       'apps/beth-app/public/**',
+      '**/.shopify/**',
     ],
   },
   js.configs.recommended,
@@ -30,7 +31,15 @@ export default tseslint.config(
     files: ['apps/beth-app/extensions/**/*.js'],
     languageOptions: {
       sourceType: 'script',
-      globals: { window: 'readonly', document: 'readonly', console: 'readonly', setTimeout: 'readonly' },
+      globals: {
+        window: 'readonly',
+        document: 'readonly',
+        console: 'readonly',
+        setTimeout: 'readonly',
+        fetch: 'readonly',
+        sessionStorage: 'readonly',
+        DOMParser: 'readonly',
+      },
     },
   },
 );

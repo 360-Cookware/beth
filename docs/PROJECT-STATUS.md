@@ -10,8 +10,9 @@ _Last updated: 2026-11-17_
 | 1 — Architecture and project setup | ✅ Architecture, repo tooling and Shopify app scaffold · ⏳ app creation (your login, `docs/03-shopify-app-setup.md` Part A) · ⏸️ OpenAI and Render deferred to the end (your decision) |
 | 2 — Product knowledge engine | ✅ Engine · ✅ live sync code, tested with a fake Admin API and real PostgreSQL · ⏳ first live run after install |
 | 3 — Recipe knowledge engine | ✅ Engine · ✅ live sync code · ⏳ first live run after install |
-| 4 — AI backend | ⏭️ Next (built against a fake provider until the OpenAI key exists) |
-| 5–11 | Not started |
+| 4 — AI backend | 🟡 Preview: `packages/ai` engine (controlled tools, output validation, offline catalog provider) + `POST /apps/beth/chat` · ⏳ OpenAI adapter (key deferred) |
+| 5 — Chat interface | 🟡 Preview: launcher + chat panel (`beth-widget.js`), product cards with live prices, comparison, recipes, add to cart with confirmation · admin on/off switch |
+| 6–11 | Not started (7 partly: add to cart + `_beth_cid` done in preview) |
 
 **Working agreements (2026-11-17):** commits go directly to `main` for now. The staging theme is
 **Beth Updates** (`gid://shopify/OnlineStoreTheme/170070245465`, unpublished, verified). OpenAI
@@ -112,6 +113,14 @@ Nothing has been changed in the Shopify store or any theme.
 
 **CI:** `.github/workflows/ci.yml` runs on every push to `main`: migrations, Prisma drift check, typecheck, lint, tests (including the PostgreSQL integration tests) and build. The first run happens after you push.
 
+## Preview chat (2026-11-17)
+
+- `packages/ai`: UI block protocol, read-only tools over `@beth/core`, `validateBlocks` (removes unknown products, wrong prices and foreign links), `runChatTurn` with fallback, and the **catalog provider**: deterministic answers from verified data (product search with budget, capacity and induction filters; questions about the current product; comparisons; recipes; one clarifying question for vague requests). No language model yet.
+- `POST /apps/beth/chat` (app proxy, signed): anonymous conversation, PII-scrubbed transcript, 30 requests per minute per IP, refuses when the launcher is off. Interim: JSON over the app proxy instead of SSE on the API domain; SSE comes with the OpenAI adapter.
+- `beth-widget.js` (6 KB gzipped, vanilla JS in Shadow DOM, loaded only on click): text, notices, quick replies, product cards (live price from `/products/<handle>.js`), comparison table ("Not stated" for unknowns), recipe cards, add to cart in two taps through `/cart/add.js` with `_beth_cid`, success shown only after Shopify's 200, cart bubble refresh. Interim: vanilla JS instead of Preact (no build step); same block protocol.
+- Admin **Home → Turn launcher on/off** writes the app-owned metafield `beth.widget_enabled` and `Settings.widgetEnabled`.
+- Tests: 57 (10 engine tests), plus a Playwright run of loader + widget against the real engine: greeting, product question, cards with prices, two-tap add to cart (payload checked), comparison, Escape closes, no console errors.
+
 ## Next implementation task
 
-Phase 4 — AI backend (`packages/ai`): provider adapter with a deterministic fake provider, the controlled tools over `@beth/core`, output validation, session bootstrap through the app proxy, chat SSE endpoint, budgets, and the evaluation harness. See `docs/02-roadmap.md` → "Next implementation task".
+OpenAI Responses adapter behind the same `ChatProvider` interface (when the key exists), SSE streaming, budgets and the cost ledger, and the evaluation harness. Meanwhile: test the preview on Beth Updates and collect wording and ranking feedback.

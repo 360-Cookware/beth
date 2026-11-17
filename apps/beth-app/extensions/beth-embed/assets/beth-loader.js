@@ -4,7 +4,7 @@
  * - Does nothing unless the embed rendered #beth-config (Beth enabled and page type allowed).
  * - Renders only the "Ask Beth" button, inside a Shadow DOM so theme CSS cannot leak in or out.
  * - Makes no network request on page load. On hover or focus it preloads the chat UI module;
- *   on click it imports beth-widget.js (a sibling asset on the Shopify CDN) and mounts it.
+ *   on click it loads beth-widget.js (a sibling asset on the Shopify CDN) and mounts it.
  * - No cookies, no storage, no customer data.
  */
 (function () {
@@ -71,10 +71,27 @@
     if (preloaded || !widgetUrl) return;
     preloaded = true;
     var link = document.createElement('link');
-    link.rel = 'modulepreload';
+    link.rel = 'preload';
+    link.as = 'script';
     link.href = widgetUrl;
-    link.crossOrigin = 'anonymous';
     document.head.appendChild(link);
+  }
+
+  function loadWidget() {
+    if (window.BethWidget) return Promise.resolve(window.BethWidget);
+    return new Promise(function (resolve, reject) {
+      var tag = document.createElement('script');
+      tag.src = widgetUrl;
+      tag.async = true;
+      tag.onload = function () {
+        if (window.BethWidget) resolve(window.BethWidget);
+        else reject(new Error('Beth widget did not initialise'));
+      };
+      tag.onerror = function () {
+        reject(new Error('Beth widget failed to load'));
+      };
+      document.head.appendChild(tag);
+    });
   }
 
   var loading = null;
@@ -86,7 +103,7 @@
     }
     if (!widgetUrl || loading) return;
     button.setAttribute('aria-busy', 'true');
-    loading = import(widgetUrl)
+    loading = loadWidget()
       .then(function (mod) {
         return mod.mount({ config: config, launcher: button, host: host });
       })

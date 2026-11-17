@@ -12,7 +12,7 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "build:core": "tsc -p packages/core/tsconfig.json",
+    "build:core": "tsc -p packages/core/tsconfig.json && tsc -p packages/ai/tsconfig.json",
     "db:generate": "npm run prisma -w beth-app -- generate",
     "db:migrate": "npm run prisma -w beth-app -- migrate deploy",
     "typecheck": "tsc -p packages/core/tsconfig.json --noEmit && npm run build:core && npm run db:generate && npm run typecheck -w beth-app",

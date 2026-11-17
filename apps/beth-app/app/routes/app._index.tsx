@@ -4,6 +4,7 @@ import { boundary } from '@shopify/shopify-app-react-router/server';
 import { authenticate } from '../shopify.server';
 import db from '../db.server';
 import { startFullSync } from '../services/knowledge/sync.server';
+import { setWidgetEnabled } from '../services/widget-flag.server';
 
 interface RunCounts {
   products?: { exported?: number; created?: number; updated?: number; deleted?: number };
@@ -43,6 +44,10 @@ export const action = async ({ request }: ActionFunctionArgs) => {
   if (form.get('intent') === 'sync') {
     startFullSync(session.shop, admin, 'manual');
     return { started: true };
+  }
+  if (form.get('intent') === 'widget') {
+    await setWidgetEnabled(session.shop, admin, form.get('enabled') === 'true');
+    return { started: false };
   }
   return { started: false };
 };
@@ -117,10 +122,22 @@ export default function Index() {
 
       <s-section heading="Storefront launcher">
         <s-paragraph>
-          The &quot;Ask Beth&quot; launcher is {widgetEnabled ? 'enabled' : 'hidden'}. It stays hidden until
-          the chat backend is configured and it is enabled here, and the app embed is only switched on in the
-          staging theme (Beth Updates) until go-live is approved.
+          The &quot;Ask Beth&quot; launcher is <strong>{widgetEnabled ? 'on' : 'off'}</strong>. It only
+          appears in themes where the Beth concierge app embed is switched on (today: the staging theme Beth
+          Updates). Until the OpenAI key is connected, Beth answers in preview mode, straight from the catalog
+          and recipes.
         </s-paragraph>
+        <s-button
+          onClick={() =>
+            fetcher.submit(
+              { intent: 'widget', enabled: widgetEnabled ? 'false' : 'true' },
+              { method: 'post' },
+            )
+          }
+          {...(fetcher.state !== 'idle' ? { loading: true } : {})}
+        >
+          {widgetEnabled ? 'Turn launcher off' : 'Turn launcher on'}
+        </s-button>
       </s-section>
     </s-page>
   );

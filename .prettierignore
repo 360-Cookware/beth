@@ -6,3 +6,4 @@ fixtures/
 package-lock.json
 docs/data-quality/
 apps/beth-app/public/
+**/.shopify/
