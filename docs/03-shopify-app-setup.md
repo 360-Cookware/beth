@@ -91,7 +91,7 @@ Nothing in this part changes the store: the app is not installed yet.
 6. **Hosting** (Render, as planned in the architecture and cost model):
    - PostgreSQL 16 database.
    - Web service from this repo, Node 22:
-     - Build command: `npm ci && npm run db:generate && npm run build`
+     - Build command: `npm ci --include=dev && npm run db:generate && npm run build` (`--include=dev` because `NODE_ENV=production` would skip the build tools)
      - Start command: `npm run db:migrate && npm run start -w beth-app`
      - Health check path: `/healthz`
    - Environment variables (secrets only in Render, never in the repo):
